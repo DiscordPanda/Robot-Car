@@ -1,0 +1,507 @@
+Sep 25 05:35:32 Quigly systemd-modules-load[111]: Inserted module 'i2c_dev'
+Sep 25 05:35:32 Quigly systemd-modules-load[111]: Inserted module 'cuse'
+Sep 25 05:35:32 Quigly systemd-modules-load[111]: Failed to find module 'spi-dev'
+Sep 25 05:35:32 Quigly systemd-modules-load[111]: Inserted module 'i2c_bcm2708'
+Sep 25 05:35:32 Quigly systemd[1]: Started Apply Kernel Variables.
+Sep 25 05:35:32 Quigly fake-hwclock[117]: Wed 25 Sep 05:35:29 UTC 2019
+Sep 25 05:35:32 Quigly systemd[1]: Time has been changed
+Sep 25 05:35:32 Quigly systemd[1]: Started Restore / save the current clock.
+Sep 25 05:35:32 Quigly systemd-fsck[112]: e2fsck 1.43.4 (31-Jan-2017)
+Sep 25 05:35:32 Quigly systemd-fsck[112]: rootfs: clean, 140925/479552 files, 1224349/1925632 blocks
+Sep 25 05:35:32 Quigly systemd[1]: Started File System Check on Root Device.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Remount Root and Kernel File Systems...
+Sep 25 05:35:32 Quigly systemd[1]: Started Create Static Device Nodes in /dev.
+Sep 25 05:35:32 Quigly systemd[1]: Starting udev Kernel Device Manager...
+Sep 25 05:35:32 Quigly systemd[1]: Started Remount Root and Kernel File Systems.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Load/Save Random Seed...
+Sep 25 05:35:32 Quigly systemd[1]: Starting udev Coldplug all Devices...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Flush Journal to Persistent Storage...
+Sep 25 05:35:32 Quigly systemd[1]: Started Load/Save Random Seed.
+Sep 25 05:35:32 Quigly systemd[1]: Started Flush Journal to Persistent Storage.
+Sep 25 05:35:32 Quigly systemd[1]: Started Set the console keyboard layout.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Local File Systems (Pre).
+Sep 25 05:35:32 Quigly systemd[1]: Started udev Kernel Device Manager.
+Sep 25 05:35:32 Quigly systemd-udevd[174]: Process '/bin/mount -t fusectl fusectl /sys/fs/fuse/connections' failed with exit code 32.
+Sep 25 05:35:32 Quigly systemd-udevd[190]: Process '/bin/mount -t fusectl fusectl /sys/fs/fuse/connections' failed with exit code 32.
+Sep 25 05:35:32 Quigly systemd[1]: Started udev Coldplug all Devices.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Show Plymouth Boot Screen...
+Sep 25 05:35:32 Quigly systemd[1]: Found device /dev/serial1.
+Sep 25 05:35:32 Quigly systemd[1]: Received SIGRTMIN+20 from PID 219 (plymouthd).
+Sep 25 05:35:32 Quigly systemd[1]: Started Show Plymouth Boot Screen.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Paths.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Encrypted Volumes.
+Sep 25 05:35:32 Quigly systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Sep 25 05:35:32 Quigly mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4"
+Sep 25 05:35:32 Quigly mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Sep 25 05:35:32 Quigly mtp-probe: bus: 1, device: 4 was not an MTP device
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Sound Card.
+Sep 25 05:35:32 Quigly systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Sep 25 05:35:32 Quigly mtp-probe: bus: 1, device: 3 was not an MTP device
+Sep 25 05:35:32 Quigly systemd[1]: Found device /dev/disk/by-partuuid/bd278ae8-01.
+Sep 25 05:35:32 Quigly systemd[1]: Starting File System Check on /dev/disk/by-partuuid/bd278ae8-01...
+Sep 25 05:35:32 Quigly systemd[1]: Found device SMSC9512/9514 Fast Ethernet Adapter.
+Sep 25 05:35:32 Quigly systemd-fsck[270]: fsck.fat 4.1 (2017-01-24)
+Sep 25 05:35:32 Quigly systemd-fsck[270]: /dev/mmcblk0p1: 158 files, 10799/21352 clusters
+Sep 25 05:35:32 Quigly systemd[1]: Started File System Check on /dev/disk/by-partuuid/bd278ae8-01.
+Sep 25 05:35:32 Quigly systemd[1]: boot.mount: Directory /boot to mount over is not empty, mounting anyway.
+Sep 25 05:35:32 Quigly systemd[1]: Mounting /boot...
+Sep 25 05:35:32 Quigly systemd[1]: Found device /sys/subsystem/net/devices/wlan0.
+Sep 25 05:35:32 Quigly systemd[1]: Mounted /boot.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Local File Systems.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Set console font and keymap...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Create Volatile Files and Directories...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Preprocess NFS configuration...
+Sep 25 05:35:32 Quigly systemd[1]: Started ifup for eth0.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Raise network interfaces...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Sep 25 05:35:32 Quigly systemd[1]: Started ifup for wlan0.
+Sep 25 05:35:32 Quigly systemd[1]: Started Set console font and keymap.
+Sep 25 05:35:32 Quigly systemd[1]: Started Preprocess NFS configuration.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target NFS client services.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Remote File Systems (Pre).
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Remote File Systems.
+Sep 25 05:35:32 Quigly systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Sep 25 05:35:32 Quigly systemd[1]: Started Create Volatile Files and Directories.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Network Time Synchronization...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Sep 25 05:35:32 Quigly systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Sep 25 05:35:32 Quigly systemd[1]: Started Network Time Synchronization.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target System Time Synchronized.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target System Initialization.
+Sep 25 05:35:32 Quigly sh[296]: Internet Systems Consortium DHCP Client 4.3.5
+Sep 25 05:35:32 Quigly sh[296]: Copyright 2004-2016 Internet Systems Consortium.
+Sep 25 05:35:32 Quigly sh[296]: All rights reserved.
+Sep 25 05:35:32 Quigly sh[296]: For info, please visit https://www.isc.org/software/dhcp/
+Sep 25 05:35:32 Quigly dhclient[353]: Internet Systems Consortium DHCP Client 4.3.5
+Sep 25 05:35:32 Quigly ifup[316]: ifup: waiting for lock on /run/network/ifstate.wlan0
+Sep 25 05:35:32 Quigly systemd[1]: Listening on triggerhappy.socket.
+Sep 25 05:35:32 Quigly dhclient[353]: Copyright 2004-2016 Internet Systems Consortium.
+Sep 25 05:35:32 Quigly systemd[1]: Started Daily Cleanup of Temporary Directories.
+Sep 25 05:35:32 Quigly dhclient[353]: All rights reserved.
+Sep 25 05:35:32 Quigly systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Sep 25 05:35:32 Quigly dhclient[353]: For info, please visit https://www.isc.org/software/dhcp/
+Sep 25 05:35:32 Quigly systemd[1]: Listening on D-Bus System Message Bus Socket.
+Sep 25 05:35:32 Quigly dhclient[353]: 
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Sockets.
+Sep 25 05:35:32 Quigly systemd[1]: apt-daily.timer: Adding 9h 49min 44.601087s random time.
+Sep 25 05:35:32 Quigly systemd[1]: Started Daily apt download activities.
+Sep 25 05:35:32 Quigly systemd[1]: apt-daily-upgrade.timer: Adding 1min 57.095847s random time.
+Sep 25 05:35:32 Quigly systemd[1]: Started Daily apt upgrade and clean activities.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Timers.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Basic System.
+Sep 25 05:35:32 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Sep 25 05:35:32 Quigly systemd[1]: Started D-Bus System Message Bus.
+Sep 25 05:35:32 Quigly btuart[385]: Can't get port settings: Input/output error
+Sep 25 05:35:32 Quigly btuart[385]: Can't initialize device: Input/output error
+Sep 25 05:35:32 Quigly dhclient[353]: Listening on LPF/eth0/b8:27:eb:ba:79:d5
+Sep 25 05:35:32 Quigly sh[296]: Listening on LPF/eth0/b8:27:eb:ba:79:d5
+Sep 25 05:35:32 Quigly sh[296]: Sending on   LPF/eth0/b8:27:eb:ba:79:d5
+Sep 25 05:35:32 Quigly sh[296]: Sending on   Socket/fallback
+Sep 25 05:35:32 Quigly sh[296]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Sep 25 05:35:32 Quigly dhclient[353]: Sending on   LPF/eth0/b8:27:eb:ba:79:d5
+Sep 25 05:35:32 Quigly dhclient[353]: Sending on   Socket/fallback
+Sep 25 05:35:32 Quigly dhclient[353]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Sep 25 05:35:32 Quigly systemd[1]: Starting LSB: Starts the LIRCD daemon....
+Sep 25 05:35:32 Quigly systemd[1]: Starting devmon Service...
+Sep 25 05:35:32 Quigly systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Sep 25 05:35:32 Quigly systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Sep 25 05:35:32 Quigly systemd[1]: Starting LSB: Start Motion detection...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Save/Restore Sound Card State...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Login Service...
+Sep 25 05:35:32 Quigly systemd[1]: Starting triggerhappy global hotkey daemon...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Disable WiFi if country not set...
+Sep 25 05:35:32 Quigly systemd[1]: Starting System Logging Service...
+Sep 25 05:35:32 Quigly systemd[1]: Starting LSB: Starts LIRC daemon....
+Sep 25 05:35:32 Quigly systemd[1]: Started Regular background program processing daemon.
+Sep 25 05:35:32 Quigly systemd[1]: Starting dhcpcd on all interfaces...
+Sep 25 05:35:32 Quigly systemd[1]: Started GoPiGo3 Power service.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Robot Detection And Maintenance...
+Sep 25 05:35:32 Quigly systemd[1]: hciuart.service: Control process exited, code=exited status=1
+Sep 25 05:35:32 Quigly systemd[1]: Failed to start Configure Bluetooth Modems connected by UART.
+Sep 25 05:35:32 Quigly systemd[1]: hciuart.service: Unit entered failed state.
+Sep 25 05:35:32 Quigly dhcpcd[460]: Not running dhcpcd because /etc/network/interfaces
+Sep 25 05:35:32 Quigly dhcpcd[460]: defines some interfaces that will use a
+Sep 25 05:35:32 Quigly dhcpcd[460]: DHCP client or static address
+Sep 25 05:35:32 Quigly cron[459]: (CRON) INFO (pidfile fd = 3)
+Sep 25 05:35:32 Quigly systemd[1]: hciuart.service: Failed with result 'exit-code'.
+Sep 25 05:35:32 Quigly systemd[1]: Started Save/Restore Sound Card State.
+Sep 25 05:35:32 Quigly systemd[1]: Started Disable WiFi if country not set.
+Sep 25 05:35:32 Quigly systemd[1]: dhcpcd.service: Control process exited, code=exited status=6
+Sep 25 05:35:32 Quigly systemd[1]: Failed to start dhcpcd on all interfaces.
+Sep 25 05:35:32 Quigly systemd[1]: dhcpcd.service: Unit entered failed state.
+Sep 25 05:35:32 Quigly systemd[1]: dhcpcd.service: Failed with result 'exit-code'.
+Sep 25 05:35:32 Quigly thd[446]: Found socket passed from systemd
+Sep 25 05:35:32 Quigly systemd[1]: Started triggerhappy global hotkey daemon.
+Sep 25 05:35:32 Quigly cron[459]: (CRON) INFO (Running @reboot jobs)
+Sep 25 05:35:32 Quigly dphys-swapfile[436]: Starting dphys-swapfile swapfile setup ...
+Sep 25 05:35:32 Quigly avahi-daemon[448]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Sep 25 05:35:32 Quigly avahi-daemon[448]: Successfully dropped root privileges.
+Sep 25 05:35:32 Quigly avahi-daemon[448]: avahi-daemon 0.6.32 starting up.
+Sep 25 05:35:32 Quigly avahi-daemon[448]: Successfully called chroot().
+Sep 25 05:35:32 Quigly avahi-daemon[448]: Successfully dropped remaining capabilities.
+Sep 25 05:35:32 Quigly systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Sep 25 05:35:32 Quigly avahi-daemon[448]: No service file found in /etc/avahi/services.
+Sep 25 05:35:32 Quigly sh[306]: wlan0=wlan0
+Sep 25 05:35:32 Quigly systemd[1]: Started Login Service.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Load/Save RF Kill Switch Status...
+Sep 25 05:35:32 Quigly avahi-daemon[448]: Joining mDNS multicast group on interface wlan0.IPv4 with address 10.10.10.10.
+Sep 25 05:35:32 Quigly avahi-daemon[448]: New relevant interface wlan0.IPv4 for mDNS.
+Sep 25 05:35:32 Quigly avahi-daemon[448]: Network interface enumeration completed.
+Sep 25 05:35:32 Quigly avahi-daemon[448]: Registering new address record for 10.10.10.10 on wlan0.IPv4.
+Sep 25 05:35:32 Quigly raspi-config[437]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Sep 25 05:35:32 Quigly raspi-config[437]:  No. Switching to ondemand scaling governor.
+Sep 25 05:35:32 Quigly systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Sep 25 05:35:32 Quigly motion[438]: Starting motion detection daemon: motion.
+Sep 25 05:35:32 Quigly systemd[1]: Started LSB: Start Motion detection.
+Sep 25 05:35:32 Quigly systemd[1]: Started Raise network interfaces.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Network.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Network is Online.
+Sep 25 05:35:32 Quigly systemd[1]: Starting LSB: Advanced IEEE 802.11 management daemon...
+Sep 25 05:35:32 Quigly systemd[1]: Starting /etc/rc.local Compatibility...
+Sep 25 05:35:32 Quigly systemd[1]: Starting dnsmasq - A lightweight DHCP and caching DNS server...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Permit User Sessions...
+Sep 25 05:35:32 Quigly systemd[1]: Started Load/Save RF Kill Switch Status.
+Sep 25 05:35:32 Quigly systemd[1]: Started Permit User Sessions.
+Sep 25 05:35:32 Quigly systemd[1]: Started /etc/rc.local Compatibility.
+Sep 25 05:35:32 Quigly systemd[1]: Starting Hold until boot process finishes up...
+Sep 25 05:35:32 Quigly systemd[1]: Starting Terminate Plymouth Boot Screen...
+Sep 25 05:35:32 Quigly liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="451" x-info="http://www.rsyslog.com"] start
+Sep 25 05:35:32 Quigly systemd[1]: Started System Logging Service.
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Linux version 4.9.80-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #1098 SMP Fri Mar 9 19:11:42 GMT 2018
+Sep 25 05:35:32 Quigly kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Sep 25 05:35:32 Quigly kernel: [    0.000000] CPU: div instructions available: patching division code
+Sep 25 05:35:32 Quigly kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Sep 25 05:35:32 Quigly kernel: [    0.000000] OF: fdt:Machine model: Raspberry Pi 3 Model B Rev 1.2
+Sep 25 05:35:32 Quigly kernel: [    0.000000] cma: Reserved 8 MiB at 0x36c00000
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Memory policy: Data cache writealloc
+Sep 25 05:35:32 Quigly kernel: [    0.000000] On node 0 totalpages: 226816
+Sep 25 05:35:32 Quigly kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c6f800, node_mem_map b6432000
+Sep 25 05:35:32 Quigly kernel: [    0.000000]   Normal zone: 1994 pages used for memmap
+Sep 25 05:35:32 Quigly kernel: [    0.000000]   Normal zone: 0 pages reserved
+Sep 25 05:35:32 Quigly kernel: [    0.000000]   Normal zone: 226816 pages, LIFO batch:31
+Sep 25 05:35:32 Quigly kernel: [    0.000000] percpu: Embedded 14 pages/cpu @b75b0000 s25600 r8192 d23552 u57344
+Sep 25 05:35:32 Quigly kernel: [    0.000000] pcpu-alloc: s25600 r8192 d23552 u57344 alloc=14*4096
+Sep 25 05:35:32 Quigly kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 224822
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3e200000 vc_mem.mem_size=0x3f600000  dwc_otg.lpm_enable=0 root=PARTUUID=bd278ae8-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Sep 25 05:35:32 Quigly kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Memory: 877416K/907264K available (7168K kernel code, 487K rwdata, 2032K rodata, 1024K init, 770K bss, 21656K reserved, 8192K cma-reserved)
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Virtual kernel memory layout:
+Sep 25 05:35:32 Quigly kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000]     vmalloc : 0xb7800000 - 0xff800000   (1152 MB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000]     lowmem  : 0x80000000 - 0xb7600000   ( 886 MB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000]       .text : 0x80008000 - 0x80800000   (8160 kB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000]       .init : 0x80b00000 - 0x80c00000   (1024 kB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000]       .data : 0x80c00000 - 0x80c79cbc   ( 488 kB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000]        .bss : 0x80c7b000 - 0x80d3b9e4   ( 771 kB)
+Sep 25 05:35:32 Quigly kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Sep 25 05:35:32 Quigly kernel: [    0.000000] Hierarchical RCU implementation.
+Sep 25 05:35:32 Quigly kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Sep 25 05:35:32 Quigly kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Sep 25 05:35:32 Quigly kernel: [    0.000000] arm_arch_timer: Architected cp15 timer(s) running at 19.20MHz (phys).
+Sep 25 05:35:32 Quigly kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Sep 25 05:35:32 Quigly kernel: [    0.000007] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Sep 25 05:35:32 Quigly kernel: [    0.000023] Switching to timer-based delay loop, resolution 52ns
+Sep 25 05:35:32 Quigly kernel: [    0.000303] Console: colour dummy device 80x30
+Sep 25 05:35:32 Quigly kernel: [    0.001183] console [tty0] enabled
+Sep 25 05:35:32 Quigly kernel: [    0.001229] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Sep 25 05:35:32 Quigly kernel: [    0.001295] pid_max: default: 32768 minimum: 301
+Sep 25 05:35:32 Quigly kernel: [    0.001629] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.001673] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.002706] Disabling memory control group subsystem
+Sep 25 05:35:32 Quigly kernel: [    0.002809] CPU: Testing write buffer coherency: ok
+Sep 25 05:35:32 Quigly kernel: [    0.002874] ftrace: allocating 22627 entries in 67 pages
+Sep 25 05:35:32 Quigly kernel: [    0.050547] CPU0: update cpu_capacity 1024
+Sep 25 05:35:32 Quigly kernel: [    0.050598] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Sep 25 05:35:32 Quigly kernel: [    0.050660] Setting up static identity map for 0x100000 - 0x100034
+Sep 25 05:35:32 Quigly kernel: [    0.052519] CPU1: update cpu_capacity 1024
+Sep 25 05:35:32 Quigly kernel: [    0.052526] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Sep 25 05:35:32 Quigly kernel: [    0.053169] CPU2: update cpu_capacity 1024
+Sep 25 05:35:32 Quigly kernel: [    0.053176] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Sep 25 05:35:32 Quigly kernel: [    0.053805] CPU3: update cpu_capacity 1024
+Sep 25 05:35:32 Quigly kernel: [    0.053811] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Sep 25 05:35:32 Quigly kernel: [    0.053899] Brought up 4 CPUs
+Sep 25 05:35:32 Quigly kernel: [    0.054072] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Sep 25 05:35:32 Quigly kernel: [    0.054102] CPU: All CPU(s) started in HYP mode.
+Sep 25 05:35:32 Quigly kernel: [    0.054128] CPU: Virtualization extensions available.
+Sep 25 05:35:32 Quigly kernel: [    0.054942] devtmpfs: initialized
+Sep 25 05:35:32 Quigly kernel: [    0.065999] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Sep 25 05:35:32 Quigly kernel: [    0.066321] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Sep 25 05:35:32 Quigly kernel: [    0.066383] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.066953] pinctrl core: initialized pinctrl subsystem
+Sep 25 05:35:32 Quigly kernel: [    0.067881] NET: Registered protocol family 16
+Sep 25 05:35:32 Quigly kernel: [    0.070019] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Sep 25 05:35:32 Quigly kernel: [    0.078834] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Sep 25 05:35:32 Quigly kernel: [    0.078883] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Sep 25 05:35:32 Quigly kernel: [    0.079065] Serial: AMBA PL011 UART driver
+Sep 25 05:35:32 Quigly kernel: [    0.080969] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Sep 25 05:35:32 Quigly kernel: [    0.081523] uart-pl011 3f201000.serial: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+Sep 25 05:35:32 Quigly kernel: [    0.151381] bcm2835-dma 3f007000.dma: DMA legacy API manager at b780d000, dmachans=0x1
+Sep 25 05:35:32 Quigly kernel: [    0.153264] SCSI subsystem initialized
+Sep 25 05:35:32 Quigly kernel: [    0.153588] usbcore: registered new interface driver usbfs
+Sep 25 05:35:32 Quigly kernel: [    0.153690] usbcore: registered new interface driver hub
+Sep 25 05:35:32 Quigly kernel: [    0.153808] usbcore: registered new device driver usb
+Sep 25 05:35:32 Quigly kernel: [    0.160353] raspberrypi-firmware soc:firmware: Attached to firmware from 2018-03-13 18:52
+Sep 25 05:35:32 Quigly kernel: [    0.161701] clocksource: Switched to clocksource arch_sys_counter
+Sep 25 05:35:32 Quigly kernel: [    0.209229] VFS: Disk quotas dquot_6.6.0
+Sep 25 05:35:32 Quigly kernel: [    0.209342] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.209570] FS-Cache: Loaded
+Sep 25 05:35:32 Quigly kernel: [    0.209836] CacheFiles: Loaded
+Sep 25 05:35:32 Quigly kernel: [    0.222028] NET: Registered protocol family 2
+Sep 25 05:35:32 Quigly kernel: [    0.222926] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.223063] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.223274] TCP: Hash tables configured (established 8192 bind 8192)
+Sep 25 05:35:32 Quigly kernel: [    0.223386] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.223452] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Sep 25 05:35:32 Quigly kernel: [    0.223684] NET: Registered protocol family 1
+Sep 25 05:35:32 Quigly kernel: [    0.224133] RPC: Registered named UNIX socket transport module.
+Sep 25 05:35:32 Quigly kernel: [    0.224166] RPC: Registered udp transport module.
+Sep 25 05:35:32 Quigly kernel: [    0.224194] RPC: Registered tcp transport module.
+Sep 25 05:35:32 Quigly kernel: [    0.224221] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Sep 25 05:35:32 Quigly kernel: [    0.225136] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Sep 25 05:35:32 Quigly kernel: [    0.227462] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Sep 25 05:35:32 Quigly kernel: [    0.243526] FS-Cache: Netfs 'nfs' registered for caching
+Sep 25 05:35:32 Quigly kernel: [    0.244528] NFS: Registering the id_resolver key type
+Sep 25 05:35:32 Quigly kernel: [    0.244583] Key type id_resolver registered
+Sep 25 05:35:32 Quigly kernel: [    0.244611] Key type id_legacy registered
+Sep 25 05:35:32 Quigly kernel: [    0.247030] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Sep 25 05:35:32 Quigly kernel: [    0.247179] io scheduler noop registered
+Sep 25 05:35:32 Quigly kernel: [    0.247210] io scheduler deadline registered (default)
+Sep 25 05:35:32 Quigly kernel: [    0.247491] io scheduler cfq registered
+Sep 25 05:35:32 Quigly kernel: [    0.253168] BCM2708FB: allocated DMA memory f6d10000
+Sep 25 05:35:32 Quigly kernel: [    0.253220] BCM2708FB: allocated DMA channel 0 @ b780d000
+Sep 25 05:35:32 Quigly kernel: [    0.261935] Console: switching to colour frame buffer device 82x26
+Sep 25 05:35:32 Quigly kernel: [    0.269381] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Sep 25 05:35:32 Quigly kernel: [    0.273274] bcm2835-rng 3f104000.rng: hwrng registered
+Sep 25 05:35:32 Quigly kernel: [    0.275667] vc-mem: phys_addr:0x00000000 mem_base=0x3e200000 mem_size:0x3f600000(1014 MiB)
+Sep 25 05:35:32 Quigly kernel: [    0.280951] vc-sm: Videocore shared memory driver
+Sep 25 05:35:32 Quigly kernel: [    0.298364] brd: module loaded
+Sep 25 05:35:32 Quigly kernel: [    0.309591] loop: module loaded
+Sep 25 05:35:32 Quigly kernel: [    0.311979] Loading iSCSI transport class v2.0-870.
+Sep 25 05:35:32 Quigly kernel: [    0.315044] libphy: Fixed MDIO Bus: probed
+Sep 25 05:35:32 Quigly kernel: [    0.317407] usbcore: registered new interface driver lan78xx
+Sep 25 05:35:32 Quigly kernel: [    0.319785] usbcore: registered new interface driver smsc95xx
+Sep 25 05:35:32 Quigly kernel: [    0.322053] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Sep 25 05:35:32 Quigly kernel: [    0.552398] Core Release: 2.80a
+Sep 25 05:35:32 Quigly kernel: [    0.554615] Setting default values for core params
+Sep 25 05:35:32 Quigly kernel: [    0.556814] Finished setting default values for core params
+Sep 25 05:35:32 Quigly kernel: [    0.759410] Using Buffer DMA mode
+Sep 25 05:35:32 Quigly kernel: [    0.761611] Periodic Transfer Interrupt Enhancement - disabled
+Sep 25 05:35:32 Quigly kernel: [    0.763934] Multiprocessor Interrupt Enhancement - disabled
+Sep 25 05:35:32 Quigly kernel: [    0.766254] OTG VER PARAM: 0, OTG VER FLAG: 0
+Sep 25 05:35:32 Quigly kernel: [    0.768601] Dedicated Tx FIFOs mode
+Sep 25 05:35:32 Quigly kernel: [    0.771203] WARN::dwc_otg_hcd_init:1032: FIQ DMA bounce buffers: virt = 0xb6d04000 dma = 0xf6d04000 len=9024
+Sep 25 05:35:32 Quigly kernel: [    0.775932] FIQ FSM acceleration enabled for :
+Sep 25 05:35:32 Quigly kernel: [    0.775932] Non-periodic Split Transactions
+Sep 25 05:35:32 Quigly kernel: [    0.775932] Periodic Split Transactions
+Sep 25 05:35:32 Quigly kernel: [    0.775932] High-Speed Isochronous Endpoints
+Sep 25 05:35:32 Quigly kernel: [    0.775932] Interrupt/Control Split Transaction hack enabled
+Sep 25 05:35:32 Quigly kernel: [    0.786949] dwc_otg: Microframe scheduler enabled
+Sep 25 05:35:32 Quigly kernel: [    0.786999] WARN::hcd_init_fiq:459: FIQ on core 1 at 0x8059b380
+Sep 25 05:35:32 Quigly kernel: [    0.789275] WARN::hcd_init_fiq:460: FIQ ASM at 0x8059b6f0 length 36
+Sep 25 05:35:32 Quigly kernel: [    0.791530] WARN::hcd_init_fiq:486: MPHI regs_base at 0xb7878000
+Sep 25 05:35:32 Quigly kernel: [    0.793794] dwc_otg 3f980000.usb: DWC OTG Controller
+Sep 25 05:35:32 Quigly kernel: [    0.796111] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Sep 25 05:35:32 Quigly kernel: [    0.798468] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Sep 25 05:35:32 Quigly kernel: [    0.800785] Init: Port Power? op_state=1
+Sep 25 05:35:32 Quigly kernel: [    0.803057] Init: Power Port (0)
+Sep 25 05:35:32 Quigly kernel: [    0.805442] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Sep 25 05:35:32 Quigly kernel: [    0.807752] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep 25 05:35:32 Quigly kernel: [    0.810049] usb usb1: Product: DWC OTG Controller
+Sep 25 05:35:32 Quigly kernel: [    0.812316] usb usb1: Manufacturer: Linux 4.9.80-v7+ dwc_otg_hcd
+Sep 25 05:35:32 Quigly kernel: [    0.814590] usb usb1: SerialNumber: 3f980000.usb
+Sep 25 05:35:32 Quigly kernel: [    0.817663] hub 1-0:1.0: USB hub found
+Sep 25 05:35:32 Quigly kernel: [    0.819865] hub 1-0:1.0: 1 port detected
+Sep 25 05:35:32 Quigly kernel: [    0.822558] dwc_otg: FIQ enabled
+Sep 25 05:35:32 Quigly kernel: [    0.822563] dwc_otg: NAK holdoff enabled
+Sep 25 05:35:32 Quigly kernel: [    0.822566] dwc_otg: FIQ split-transaction FSM enabled
+Sep 25 05:35:32 Quigly kernel: [    0.822579] Module dwc_common_port init
+Sep 25 05:35:32 Quigly kernel: [    0.822800] usbcore: registered new interface driver usb-storage
+Sep 25 05:35:32 Quigly kernel: [    0.825129] mousedev: PS/2 mouse device common for all mice
+Sep 25 05:35:32 Quigly kernel: [    0.828228] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Sep 25 05:35:32 Quigly kernel: [    0.830755] bcm2835-cpufreq: min=600000 max=1200000
+Sep 25 05:35:32 Quigly kernel: [    0.833438] sdhci: Secure Digital Host Controller Interface driver
+Sep 25 05:35:32 Quigly kernel: [    0.835752] sdhci: Copyright(c) Pierre Ossman
+Sep 25 05:35:32 Quigly kernel: [    0.838276] sdhost-bcm2835 3f202000.sdhost: could not get clk, deferring probe
+Sep 25 05:35:32 Quigly kernel: [    0.842850] mmc-bcm2835 3f300000.mmc: could not get clk, deferring probe
+Sep 25 05:35:32 Quigly kernel: [    0.845391] sdhci-pltfm: SDHCI platform and OF driver helper
+Sep 25 05:35:32 Quigly kernel: [    0.849277] ledtrig-cpu: registered to indicate activity on CPUs
+Sep 25 05:35:32 Quigly kernel: [    0.851949] hidraw: raw HID events driver (C) Jiri Kosina
+Sep 25 05:35:32 Quigly kernel: [    0.854621] usbcore: registered new interface driver usbhid
+Sep 25 05:35:32 Quigly kernel: [    0.857081] usbhid: USB HID core driver
+Sep 25 05:35:32 Quigly kernel: [    0.860323] vchiq: vchiq_init_state: slot_zero = 0xb6d80000, is_master = 0
+Sep 25 05:35:32 Quigly kernel: [    0.864212] [vc_sm_connected_init]: start
+Sep 25 05:35:32 Quigly kernel: [    0.873008] [vc_sm_connected_init]: end - returning 0
+Sep 25 05:35:32 Quigly kernel: [    0.875828] Initializing XFRM netlink socket
+Sep 25 05:35:32 Quigly kernel: [    0.878276] NET: Registered protocol family 17
+Sep 25 05:35:32 Quigly kernel: [    0.880805] Key type dns_resolver registered
+Sep 25 05:35:32 Quigly kernel: [    0.883562] Registering SWP/SWPB emulation handler
+Sep 25 05:35:32 Quigly kernel: [    0.886751] registered taskstats version 1
+Sep 25 05:35:32 Quigly kernel: [    0.894527] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Sep 25 05:35:32 Quigly kernel: [    0.897097] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Sep 25 05:35:32 Quigly kernel: [    0.903609] sdhost: log_buf @ b6d07000 (f6d07000)
+Sep 25 05:35:32 Quigly kernel: [    0.981730] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Sep 25 05:35:32 Quigly kernel: [    0.986441] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+Sep 25 05:35:32 Quigly kernel: [    0.988923] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+Sep 25 05:35:32 Quigly kernel: [    1.041884] Indeed it is in host mode hprt0 = 00021501
+Sep 25 05:35:32 Quigly kernel: [    1.104386] of_cfs_init
+Sep 25 05:35:32 Quigly kernel: [    1.106807] of_cfs_init: OK
+Sep 25 05:35:32 Quigly kernel: [    1.109547] Waiting for root device PARTUUID=bd278ae8-02...
+Sep 25 05:35:32 Quigly kernel: [    1.116062] mmc0: host does not support reading read-only switch, assuming write-enable
+Sep 25 05:35:32 Quigly kernel: [    1.122439] mmc0: Problem switching card into high-speed mode!
+Sep 25 05:35:32 Quigly kernel: [    1.125697] mmc0: new SDHC card at address 0001
+Sep 25 05:35:32 Quigly kernel: [    1.128807] mmcblk0: mmc0:0001 SD 7.39 GiB
+Sep 25 05:35:32 Quigly kernel: [    1.131530] random: fast init done
+Sep 25 05:35:32 Quigly kernel: [    1.134028]  mmcblk0: p1 p2
+Sep 25 05:35:32 Quigly kernel: [    1.140976] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+Sep 25 05:35:32 Quigly kernel: [    1.144893] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Sep 25 05:35:32 Quigly kernel: [    1.148729] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Sep 25 05:35:32 Quigly kernel: [    1.153677] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+Sep 25 05:35:32 Quigly kernel: [    1.246483] mmc1: new high speed SDIO card at address 0001
+Sep 25 05:35:32 Quigly kernel: [    1.251740] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Sep 25 05:35:32 Quigly kernel: [    1.252432] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Sep 25 05:35:32 Quigly kernel: [    1.252480] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Sep 25 05:35:32 Quigly kernel: [    1.260151] Indeed it is in host mode hprt0 = 00001101
+Sep 25 05:35:32 Quigly kernel: [    1.267431] devtmpfs: mounted
+Sep 25 05:35:32 Quigly kernel: [    1.324109] Freeing unused kernel memory: 1024K
+Sep 25 05:35:32 Quigly kernel: [    1.492018] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+Sep 25 05:35:32 Quigly kernel: [    1.494385] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Sep 25 05:35:32 Quigly kernel: [    1.497501] hub 1-1:1.0: USB hub found
+Sep 25 05:35:32 Quigly kernel: [    1.499761] hub 1-1:1.0: 5 ports detected
+Sep 25 05:35:32 Quigly kernel: [    1.821750] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Sep 25 05:35:32 Quigly kernel: [    1.952030] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+Sep 25 05:35:32 Quigly kernel: [    1.954267] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Sep 25 05:35:32 Quigly kernel: [    1.959357] smsc95xx v1.0.5
+Sep 25 05:35:32 Quigly kernel: [    2.055379] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:ba:79:d5
+Sep 25 05:35:32 Quigly kernel: [    2.351748] usb 1-1.4: new high-speed USB device number 4 using dwc_otg
+Sep 25 05:35:32 Quigly kernel: [    2.374988] NET: Registered protocol family 10
+Sep 25 05:35:32 Quigly kernel: [    2.394316] ip_tables: (C) 2000-2006 Netfilter Core Team
+Sep 25 05:35:32 Quigly kernel: [    2.543734] usb 1-1.4: New USB device found, idVendor=090c, idProduct=1000
+Sep 25 05:35:32 Quigly kernel: [    2.546905] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep 25 05:35:32 Quigly kernel: [    2.550233] usb 1-1.4: Product: USB Flash Disk
+Sep 25 05:35:32 Quigly kernel: [    2.553256] usb 1-1.4: Manufacturer: General
+Sep 25 05:35:32 Quigly kernel: [    2.556152] usb 1-1.4: SerialNumber: 04XLHF9DARU0PG79
+Sep 25 05:35:32 Quigly kernel: [    2.560281] usb-storage 1-1.4:1.0: USB Mass Storage device detected
+Sep 25 05:35:32 Quigly kernel: [    2.565982] scsi host0: usb-storage 1-1.4:1.0
+Sep 25 05:35:32 Quigly kernel: [    3.356431] i2c /dev entries driver
+Sep 25 05:35:32 Quigly kernel: [    3.422247] fuse init (API version 7.26)
+Sep 25 05:35:32 Quigly kernel: [    3.972893] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Sep 25 05:35:32 Quigly kernel: [    4.019586] scsi 0:0:0:0: Direct-Access     General  USB Flash Disk   1100 PQ: 0 ANSI: 4
+Sep 25 05:35:32 Quigly kernel: [    4.023273] sd 0:0:0:0: [sda] 15669248 512-byte logical blocks: (8.02 GB/7.47 GiB)
+Sep 25 05:35:32 Quigly kernel: [    4.024208] sd 0:0:0:0: [sda] Write Protect is off
+Sep 25 05:35:32 Quigly kernel: [    4.024228] sd 0:0:0:0: [sda] Mode Sense: 43 00 00 00
+Sep 25 05:35:32 Quigly kernel: [    4.025190] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Sep 25 05:35:32 Quigly kernel: [    4.310030] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Sep 25 05:35:32 Quigly kernel: [    4.572421] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Sep 25 05:35:32 Quigly kernel: [    5.048164]  sda: sda1
+Sep 25 05:35:32 Quigly kernel: [    5.053435] sd 0:0:0:0: [sda] Attached SCSI removable disk
+Sep 25 05:35:32 Quigly kernel: [    5.230134] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Sep 25 05:35:32 Quigly kernel: [    5.236341] usbcore: registered new interface driver brcmfmac
+Sep 25 05:35:32 Quigly kernel: [    5.577861] brcmfmac: Firmware version = wl0: Oct 23 2017 03:55:53 version 7.45.98.38 (r674442 CY) FWID 01-e58d219f
+Sep 25 05:35:32 Quigly kernel: [    5.578615] brcmfmac: brcmf_c_preinit_dcmds: CLM version = API: 12.2 Data: 7.11.15 Compiler: 1.24.2 ClmImport: 1.24.1 Creation: 2014-05-26 10:53:55 Inc Data: 9.10.39 Inc Compiler: 1.29.4 Inc ClmImport: 1.36.3 Creation: 2017-10-23 03:47:14 
+Sep 25 05:35:32 Quigly kernel: [    6.117702] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Sep 25 05:35:32 Quigly kernel: [    6.117716] brcmfmac: power management disabled
+Sep 25 05:35:32 Quigly kernel: [    6.373354] nf_conntrack version 0.5.0 (14336 buckets, 57344 max)
+Sep 25 05:35:32 Quigly kernel: [    6.503838] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Sep 25 05:35:32 Quigly kernel: [    6.504021] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Sep 25 05:35:32 Quigly kernel: [    6.693181] random: crng init done
+Sep 25 05:35:32 Quigly kernel: [    7.415520] lirc_dev: IR Remote Control driver registered, major 243
+Sep 25 05:35:32 Quigly bash[435]: ========================================
+Sep 25 05:35:32 Quigly bash[435]: Removing USB-Drive symlinks for user=pi
+Sep 25 05:35:32 Quigly systemd[1]: Received SIGRTMIN+21 from PID 219 (plymouthd).
+Sep 25 05:35:32 Quigly systemd[1]: Started Hold until boot process finishes up.
+Sep 25 05:35:32 Quigly systemd[1]: Started Terminate Plymouth Boot Screen.
+Sep 25 05:35:32 Quigly systemd[1]: Started Getty on tty1.
+Sep 25 05:35:32 Quigly systemd[1]: Reached target Login Prompts.
+Sep 25 05:35:32 Quigly kernel: [    7.559016] lirc_rpi: module is from the staging directory, the quality is unknown, you have been warned.
+Sep 25 05:35:32 Quigly kernel: [    7.560231] lirc_rpi: gpio chip not found!
+Sep 25 05:35:32 Quigly lircd[433]: Starting remote control daemon: LIRCD.
+Sep 25 05:35:32 Quigly lircd-0.9.0-pre1[562]: lircd(default) ready, using /var/run/lirc/lircd
+Sep 25 05:35:32 Quigly dphys-swapfile[436]: want /var/swap=100MByte, checking existing: keeping it
+Sep 25 05:35:32 Quigly systemd[1]: Started LSB: Starts the LIRCD daemon..
+Sep 25 05:35:32 Quigly systemd[1]: Starting LSB: Starts the LIRCMD mouse daemon....
+Sep 25 05:35:32 Quigly systemd[1]: Started LSB: Starts the LIRCMD mouse daemon..
+Sep 25 05:35:33 Quigly dphys-swapfile[436]: done.
+Sep 25 05:35:33 Quigly systemd[1]: Started LSB: Autogenerate and use a swap file.
+Sep 25 05:35:33 Quigly kernel: [    7.694445] Adding 102396k swap on /var/swap.  Priority:-1 extents:1 across:102396k SSFS
+Sep 25 05:35:33 Quigly lirc[454]: Loading LIRC modules:.
+Sep 25 05:35:33 Quigly lirc[454]: Unable to load LIRC kernel modules. Verify your ... failed!
+Sep 25 05:35:33 Quigly lirc[454]: selected kernel modules in /etc/lirc/hardware.conf ... failed!
+Sep 25 05:35:33 Quigly lircd-0.9.0-pre1[562]: accepted new client on /var/run/lirc/lircd
+Sep 25 05:35:33 Quigly lircd-0.9.0-pre1[562]: could not get file information for /dev/lirc
+Sep 25 05:35:33 Quigly lirc[454]: Starting execution daemon: irexec:.
+Sep 25 05:35:33 Quigly systemd[1]: Started LSB: Starts LIRC daemon..
+Sep 25 05:35:33 Quigly lircd-0.9.0-pre1[562]: default_init(): No such file or directory
+Sep 25 05:35:33 Quigly lircd-0.9.0-pre1[562]: Failed to initialize hardware
+Sep 25 05:35:33 Quigly avahi-daemon[448]: Server startup complete. Host name is Quigly.local. Local service cookie is 131175115.
+Sep 25 05:35:33 Quigly dnsmasq[527]: dnsmasq: syntax check OK.
+Sep 25 05:35:33 Quigly hostapd[525]: Starting advanced IEEE 802.11 management: hostapd.
+Sep 25 05:35:33 Quigly systemd[1]: Started LSB: Advanced IEEE 802.11 management daemon.
+Sep 25 05:35:33 Quigly kernel: [    8.369850] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Sep 25 05:35:33 Quigly dnsmasq[607]: started, version 2.76 cachesize 150
+Sep 25 05:35:33 Quigly dnsmasq[607]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Sep 25 05:35:33 Quigly dnsmasq[607]: warning: ignoring resolv-file flag because no-resolv is set
+Sep 25 05:35:33 Quigly dnsmasq-dhcp[607]: DHCP, IP range 10.10.10.11 -- 10.10.10.254, lease time 2h
+Sep 25 05:35:33 Quigly dnsmasq[607]: using nameserver 8.8.4.4#53
+Sep 25 05:35:33 Quigly dnsmasq[607]: using nameserver 8.8.8.8#53
+Sep 25 05:35:33 Quigly dnsmasq[607]: read /etc/hosts - 7 addresses
+Sep 25 05:35:33 Quigly bash[435]: Removing USB-Drive symlinks for user=jupyter
+Sep 25 05:35:33 Quigly bash[435]: ========================================
+Sep 25 05:35:34 Quigly bash[435]: Checking for zombie media points..
+Sep 25 05:35:34 Quigly bash[435]: -----------------------
+Sep 25 05:35:34 Quigly systemd[1]: Started devmon Service.
+Sep 25 05:35:34 Quigly dnsmasq[609]: Too few arguments.
+Sep 25 05:35:34 Quigly systemd[1]: Started dnsmasq - A lightweight DHCP and caching DNS server.
+Sep 25 05:35:34 Quigly systemd[1]: Reached target Multi-User System.
+Sep 25 05:35:34 Quigly systemd[1]: Reached target Graphical Interface.
+Sep 25 05:35:34 Quigly systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Sep 25 05:35:34 Quigly systemd[1]: Reached target Host and Network Name Lookups.
+Sep 25 05:35:34 Quigly systemd[1]: Started Update UTMP about System Runlevel Changes.
+Sep 25 05:35:34 Quigly avahi-daemon[448]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::ba27:ebff:feef:2c80.
+Sep 25 05:35:34 Quigly avahi-daemon[448]: New relevant interface wlan0.IPv6 for mDNS.
+Sep 25 05:35:34 Quigly avahi-daemon[448]: Registering new address record for fe80::ba27:ebff:feef:2c80 on wlan0.*.
+Sep 25 05:35:35 Quigly dhclient[353]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Sep 25 05:35:35 Quigly sh[296]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Sep 25 05:35:35 Quigly python[464]: autodetect
+Sep 25 05:35:35 Quigly python[464]: Cleaning SPI
+Sep 25 05:35:35 Quigly python[464]: Detecting GoPiGo3
+Sep 25 05:35:35 Quigly python[464]: Found GoPiGo3
+Sep 25 05:35:35 Quigly python[464]: Found GoPiGo3.
+Sep 25 05:35:35 Quigly python[464]: run_autodetect/ Detected robot: GoPiGo3
+Sep 25 05:35:35 Quigly systemd[1]: Started Robot Detection And Maintenance.
+Sep 25 05:35:35 Quigly systemd[1]: Starting Update...
+Sep 25 05:35:36 Quigly env[723]: still waiting for devmon service to mount something
+Sep 25 05:35:36 Quigly motion: [0:motion] [NTC] [ALL] conf_load: Processing thread 0 - config file /etc/motion/motion.conf
+Sep 25 05:35:36 Quigly motion: [0:motion] [ALR] [ALL] conf_cmdparse: Unknown config option "ffmpeg_deinterlace"
+Sep 25 05:35:36 Quigly motion: [0:motion] [ALR] [ALL] conf_cmdparse: Unknown config option "sdl_threadnr"
+Sep 25 05:35:36 Quigly motion: [0:motion] [NTC] [ALL] motion_startup: Motion 4.0 Started
+Sep 25 05:35:36 Quigly motion: [0:motion] [NTC] [ALL] motion_startup: Logging to syslog
+Sep 25 05:35:36 Quigly motion: [0:motion] [NTC] [ALL] motion_startup: Using log type (ALL) log level (ERR)
+Sep 25 05:35:36 Quigly devmon[675]: device: [/dev/sda1]
+Sep 25 05:35:36 Quigly devmon[675]:     systeminternal: [0]
+Sep 25 05:35:36 Quigly devmon[675]:     usage:          [filesystem]
+Sep 25 05:35:36 Quigly devmon[675]:     type:           [vfat]
+Sep 25 05:35:36 Quigly devmon[675]:     label:          [DISK_IMG]
+Sep 25 05:35:36 Quigly devmon[675]:     ismounted:      [0]
+Sep 25 05:35:36 Quigly devmon[675]:     nopolicy:       [0]
+Sep 25 05:35:36 Quigly devmon[675]:     hasmedia:       [1]
+Sep 25 05:35:36 Quigly devmon[675]:     opticaldisc:    []
+Sep 25 05:35:36 Quigly devmon[675]:     numaudiotracks: []
+Sep 25 05:35:36 Quigly devmon[675]:     blank:          []
+Sep 25 05:35:36 Quigly devmon[675]:     media:          []
+Sep 25 05:35:36 Quigly devmon[675]:     partition:      [1]
+Sep 25 05:35:36 Quigly devmon[675]: devmon: /usr/bin/udevil --mount /dev/sda1 --mount-options "noexec,nosuid,nodev,noatime"    # (DISK_IMG)
+Sep 25 05:35:36 Quigly env[462]: Running gpg3_power.sh
+Sep 25 05:35:36 Quigly env[462]: gpg3_power.sh - gopigo3_power.py is not running
+Sep 25 05:35:36 Quigly kernel: [   11.430839] FAT-fs (sda1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+Sep 25 05:35:36 Quigly devmon[675]: Mounted /dev/sda1 at /media/DISK_IMG
+Sep 25 05:35:36 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:35:37 Quigly env[384]: Continuous Logger
+Sep 25 05:35:37 Quigly env[384]: Using usb key at /media/DISK_IMG

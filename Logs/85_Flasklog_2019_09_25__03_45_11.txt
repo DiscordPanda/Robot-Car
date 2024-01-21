@@ -1,0 +1,1266 @@
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:11] "GET /wpad.dat HTTP/1.1" 302 396 0.010847
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:12] "GET /connecttest.txt HTTP/1.1" 302 396 0.014022
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:12] "GET /connecttest.txt HTTP/1.1" 302 396 0.015990
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:14] "GET /connecttest.txt HTTP/1.1" 302 396 0.008525
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:14] "GET /connecttest.txt HTTP/1.1" 302 396 0.008101
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:14] "GET /wpad.dat HTTP/1.1" 302 396 0.008399
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:14] "GET / HTTP/1.1" 200 31306 0.529428
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:15] "GET / HTTP/1.1" 200 31306 0.368082
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193848090-2727 HTTP/1.1" 200 357 0.010763
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193848089-2507 HTTP/1.1" 200 357 0.007751
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.011337
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193848089-2598 HTTP/1.1" 200 357 0.010668
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193848087-3025 HTTP/1.1" 200 357 0.011286
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193848089-17 HTTP/1.1" 200 357 0.006436
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /redirect
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /redirect HTTP/1.1" 302 396 0.011806
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.007047
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Attempting to upgrade connection
+DEBUG:geventwebsocket.handler:WebSocket request accepted, switching protocols
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.007788
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET / HTTP/1.1" 200 31306 0.048353
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193850445-2728&sid=5cc498c1879e44b3bc12e4297b9637cc HTTP/1.1" 200 191 0.083718
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Attempting to upgrade connection
+DEBUG:geventwebsocket.handler:WebSocket request accepted, switching protocols
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.011196
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193850446-2508&sid=55217fb741284f2d8e4a3e5305d6ce6b HTTP/1.1" 200 191 0.203438
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Attempting to upgrade connection
+DEBUG:geventwebsocket.handler:WebSocket request accepted, switching protocols
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/pure-min.css HTTP/1.1" 304 205 0.020124
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/introjs.css HTTP/1.1" 304 205 0.010128
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/main.css HTTP/1.1" 304 204 0.008698
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/dexter_introjs.css HTTP/1.1" 304 203 0.009043
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Attempting to upgrade connection
+DEBUG:geventwebsocket.handler:WebSocket request accepted, switching protocols
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193850474-2599&sid=08f8ad3dec1f409c989b699290d6ee04 HTTP/1.1" 200 191 0.274351
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/grids-responsive-min.css HTTP/1.1" 304 203 0.007753
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/header.css HTTP/1.1" 304 203 0.008976
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/modal.css HTTP/1.1" 304 203 0.008799
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193850506-3026&sid=b82c427b2eb04d419e6b9ab0ce66c5a2 HTTP/1.1" 200 191 0.234691
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/font-awesome.min.css HTTP/1.1" 304 205 0.009971
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Attempting to upgrade connection
+DEBUG:geventwebsocket.handler:WebSocket request accepted, switching protocols
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.007605
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/trimming.css HTTP/1.1" 304 204 0.008122
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.008190
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.009538
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010031
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/jquery-3.1.1.js HTTP/1.1" 304 206 0.030361
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /_check_batteries HTTP/1.1" 200 156 0.006042
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Failed to write closing frame -> closing socket
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/intro.js HTTP/1.1" 304 205 0.007193
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/modal.js HTTP/1.1" 304 205 0.015679
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/dexter_modal.js HTTP/1.1" 304 205 0.007927
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/socket.io.min.js HTTP/1.1" 304 205 0.008528
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/dexter_menu_dropdown.js HTTP/1.1" 304 204 0.007312
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/dexter_internationalize.js HTTP/1.1" 304 204 0.009018
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/dexter_core.js HTTP/1.1" 304 204 0.006748
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/images/trimming_step_1.jpg HTTP/1.1" 304 205 0.006833
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/images/trimming_icon.png HTTP/1.1" 304 204 0.006898
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/msg/dexter/en.js HTTP/1.1" 304 205 0.056309
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /socket.io/?EIO=3&transport=polling&t=1574193851091-0 HTTP/1.1" 200 357 0.004317
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/js/dexter_responsive.js HTTP/1.1" 304 203 0.007596
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:17] "GET /static/images/logo-trans-cut-white_12.png HTTP/1.1" 304 203 0.008413
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /static/fonts/open_sans/OpenSans-Light.ttf HTTP/1.1" 304 205 0.050927
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /static/fonts/open_sans/OpenSans-Semibold.ttf HTTP/1.1" 304 206 0.008344
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 205 0.009066
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Attempting to upgrade connection
+DEBUG:geventwebsocket.handler:WebSocket request accepted, switching protocols
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /_auto_detect HTTP/1.1" 200 144 0.005665
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /ssid HTTP/1.1" 200 121 0.004934
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /version HTTP/1.1" 200 121 0.004178
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /socket.io/?EIO=3&transport=polling&t=1574193851291-1&sid=71761ffebb2541c4aac3dd512adf9648 HTTP/1.1" 200 191 0.301148
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /_auto_detect HTTP/1.1" 200 144 0.005780
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /static/images/favicon.ico HTTP/1.1" 304 203 0.007223
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /_check_batteries HTTP/1.1" 200 156 0.005872
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:18] "GET /check_for_usb HTTP/1.1" 200 127 0.008337
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Failed to write closing frame -> closing socket
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:19] "GET /_list_of_saved_files?in_path=%2Fhome%2Fpi%2FDocuments%2F HTTP/1.1" 200 110 0.022404
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:20] "GET /_check_batteries HTTP/1.1" 200 156 0.005746
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Failed to write closing frame -> closing socket
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Failed to write closing frame -> closing socket
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Failed to write closing frame -> closing socket
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Failed to write closing frame -> closing socket
+DEBUG:geventwebsocket.handler:Closed WebSocket
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/pure-min.css HTTP/1.1" 304 205 0.007043
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/main.css HTTP/1.1" 304 204 0.007393
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/introjs.css HTTP/1.1" 304 205 0.007053
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/grids-responsive-min.css HTTP/1.1" 304 203 0.007011
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/dexter_introjs.css HTTP/1.1" 304 203 0.007614
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/header.css HTTP/1.1" 304 203 0.007182
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/js/jquery-3.1.1.js HTTP/1.1" 304 206 0.006704
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/trimming.css HTTP/1.1" 304 204 0.006851
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/font-awesome.min.css HTTP/1.1" 304 205 0.006798
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/modal.css HTTP/1.1" 304 203 0.006721
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /python HTTP/1.1" 200 41410 1.179001
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/js/intro.js HTTP/1.1" 304 205 0.007421
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/js/dexter_modal.js HTTP/1.1" 304 205 0.007177
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:26] "GET /static/js/socket.io.min.js HTTP/1.1" 304 205 0.007139
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/js/dexter_menu_dropdown.js HTTP/1.1" 304 204 0.006886
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/js/modal.js HTTP/1.1" 304 205 0.006897
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/msg/dexter/en.js HTTP/1.1" 304 205 0.006939
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/js/dexter_internationalize.js HTTP/1.1" 304 204 0.006521
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/js/dexter_core.js HTTP/1.1" 304 204 0.006478
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/images/stop.png HTTP/1.1" 304 204 0.006707
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /socket.io/?EIO=3&transport=polling&t=1574193860378-0 HTTP/1.1" 200 357 0.004861
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/images/trimming_icon.png HTTP/1.1" 304 204 0.006742
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/images/DXT_MenuIcons_Photos1.png HTTP/1.1" 304 204 0.006671
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/images/trimming_step_1.jpg HTTP/1.1" 304 205 0.007140
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/js/dexter_responsive.js HTTP/1.1" 304 203 0.006645
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/js/dexter_sensor_control_panel.js HTTP/1.1" 304 204 0.006775
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/fonts/open_sans/OpenSans-Light.ttf HTTP/1.1" 304 205 0.007095
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 205 0.006869
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/fonts/open_sans/OpenSans-Semibold.ttf HTTP/1.1" 304 206 0.006928
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/images/logo-trans-cut-white_12.png HTTP/1.1" 304 203 0.007046
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/images/DXT_MenuIcons_CalibrateWhite.png HTTP/1.1" 304 204 0.006925
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /static/images/DXT_MenuIcons_CalibrateBlack.png HTTP/1.1" 304 204 0.006865
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Attempting to upgrade connection
+DEBUG:geventwebsocket.handler:WebSocket request accepted, switching protocols
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /_auto_detect HTTP/1.1" 200 144 0.005270
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /ssid HTTP/1.1" 200 121 0.004118
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /version HTTP/1.1" 200 121 0.004268
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /_control_panel HTTP/1.1" 200 156 0.004930
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /socket.io/?EIO=3&transport=polling&t=1574193860510-1&sid=fc1aab8324424b5fa2fa21bf8303a151 HTTP/1.1" 200 191 0.238077
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /_check_batteries HTTP/1.1" 200 156 0.005710
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /check_for_usb HTTP/1.1" 200 127 0.008541
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /_list_of_saved_files?in_path=%2Fhome%2Fpi%2FDocuments%2F HTTP/1.1" 200 110 0.005153
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:27] "GET /socket.io/?EIO=3&transport=polling&t=1574193850512-18&sid=44eb4537e0fc47aaa04b0fd56781010e HTTP/1.1" 200 207 10.408148
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:37] "GET /_check_batteries HTTP/1.1" 200 156 0.005891
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013031
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:39] "GET /connecttest.txt HTTP/1.1" 302 396 0.006812
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:47] "GET /_check_batteries HTTP/1.1" 200 155 0.010422
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:45:57] "GET /_check_batteries HTTP/1.1" 200 156 0.013525
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:07] "GET /_check_batteries HTTP/1.1" 200 156 0.005847
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007002
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.009799
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:11] "GET /wpad.dat HTTP/1.1" 302 396 0.013301
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:11] "GET / HTTP/1.1" 200 31306 0.053842
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:17] "GET /_check_batteries HTTP/1.1" 200 156 0.005672
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:27] "GET /_check_batteries HTTP/1.1" 200 155 0.005841
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:37] "GET /_check_batteries HTTP/1.1" 200 155 0.010445
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.016522
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.012642
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:43] "GET /wpad.dat HTTP/1.1" 302 396 0.018716
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:43] "GET / HTTP/1.1" 200 31306 0.085682
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010532
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:46:57] "GET /_check_batteries HTTP/1.1" 200 155 0.005765
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010614
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.013007
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.013080
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010657
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:27] "GET /_check_batteries HTTP/1.1" 200 156 0.005751
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:31] "GET /wpad.dat HTTP/1.1" 302 396 0.007110
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:31] "GET / HTTP/1.1" 200 31306 0.054667
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:37] "GET /_check_batteries HTTP/1.1" 200 156 0.010439
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.006832
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.012657
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:47] "GET /_check_batteries HTTP/1.1" 200 156 0.005860
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:47:57] "GET /_check_batteries HTTP/1.1" 200 156 0.006239
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:06] "GET /wpad.dat HTTP/1.1" 302 396 0.007176
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:06] "GET / HTTP/1.1" 200 31306 0.032145
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010669
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.012977
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.010463
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010806
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:27] "GET /_check_batteries HTTP/1.1" 200 156 0.005880
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:37] "GET /_check_batteries HTTP/1.1" 200 156 0.006371
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013140
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013075
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010493
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:48:57] "GET /_check_batteries HTTP/1.1" 200 155 0.010908
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:01] "GET /wpad.dat HTTP/1.1" 302 396 0.018447
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:01] "GET / HTTP/1.1" 200 31306 0.037560
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010651
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007064
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007095
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:emergencystop
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:14] "GET /emergencystop HTTP/1.1" 200 109 0.005705
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:14] "GET /execute/fast?to_run_code=gpg.stop()%0A HTTP/1.1" 200 109 0.005582
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:17] "GET /_check_batteries HTTP/1.1" 200 156 0.005781
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:27] "GET /_check_batteries HTTP/1.1" 200 156 0.006086
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:37] "GET /_check_batteries HTTP/1.1" 200 156 0.010550
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013190
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.009388
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010580
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:49:57] "GET /_check_batteries HTTP/1.1" 200 156 0.005744
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:03] "GET /wpad.dat HTTP/1.1" 302 396 0.013707
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:03] "GET / HTTP/1.1" 200 31306 0.053588
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010663
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.013176
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.012847
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010940
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:19] "GET /execute/fast?to_run_code=gpg.stop()%0A HTTP/1.1" 200 109 0.010111
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:emergencystop
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:19] "GET /emergencystop HTTP/1.1" 200 109 0.010393
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:27] "GET /_check_batteries HTTP/1.1" 200 156 0.010600
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:37] "GET /_check_batteries HTTP/1.1" 200 156 0.005851
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013049
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013033
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:47] "GET /_check_batteries HTTP/1.1" 200 156 0.005993
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:50:57] "GET /_check_batteries HTTP/1.1" 200 156 0.010733
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:07] "GET /_check_batteries HTTP/1.1" 200 156 0.017952
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.006882
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.012835
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:13] "GET /wpad.dat HTTP/1.1" 302 396 0.041171
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:13] "GET / HTTP/1.1" 200 31306 0.093668
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:17] "GET /_check_batteries HTTP/1.1" 200 156 0.016524
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:27] "GET /_check_batteries HTTP/1.1" 200 156 0.010428
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:37] "GET /_check_batteries HTTP/1.1" 200 154 0.007930
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013193
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013132
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010590
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:51:57] "GET /_check_batteries HTTP/1.1" 200 156 0.005646
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:07] "GET /_check_batteries HTTP/1.1" 200 156 0.005784
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.013106
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.012962
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:09] "GET /wpad.dat HTTP/1.1" 302 396 0.014171
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:09] "GET / HTTP/1.1" 200 31306 0.022267
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010475
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:27] "GET /_check_batteries HTTP/1.1" 200 156 0.005702
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:37] "GET /_check_batteries HTTP/1.1" 200 156 0.006247
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.007586
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.007618
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:47] "GET /_check_batteries HTTP/1.1" 200 156 0.005650
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:48] "GET /wpad.dat HTTP/1.1" 302 396 0.006944
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:48] "GET / HTTP/1.1" 200 31306 0.021488
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:52:57] "GET /_check_batteries HTTP/1.1" 200 156 0.016881
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:07] "GET /_check_batteries HTTP/1.1" 200 156 0.037432
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.006895
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007296
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010417
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:21] "GET /wpad.dat HTTP/1.1" 302 396 0.007153
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:21] "GET / HTTP/1.1" 200 31306 0.013592
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:27] "GET /_check_batteries HTTP/1.1" 200 156 0.016309
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:37] "GET /_check_batteries HTTP/1.1" 200 156 0.005677
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.008091
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.007437
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:47] "GET /_check_batteries HTTP/1.1" 200 156 0.006038
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:53:57] "GET /_check_batteries HTTP/1.1" 200 156 0.006267
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:07] "GET /_check_batteries HTTP/1.1" 200 156 0.006037
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.008673
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007378
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:17] "GET /_check_batteries HTTP/1.1" 200 156 0.005921
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:20] "GET /wpad.dat HTTP/1.1" 302 396 0.008801
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:21] "GET / HTTP/1.1" 200 31306 0.018317
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:27] "GET /_check_batteries HTTP/1.1" 200 156 0.006516
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:37] "GET /_check_batteries HTTP/1.1" 200 156 0.010728
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.007234
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.018890
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010597
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:52] "GET /wpad.dat HTTP/1.1" 302 396 0.006846
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:52] "GET / HTTP/1.1" 200 31306 0.023459
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:54:57] "GET /_check_batteries HTTP/1.1" 200 156 0.015347
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:07] "GET /_check_batteries HTTP/1.1" 200 156 0.005757
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.012600
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.018497
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010555
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:27] "GET /_check_batteries HTTP/1.1" 200 156 0.011390
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:37] "GET /_check_batteries HTTP/1.1" 200 156 0.010364
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.014502
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.012650
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:47] "GET /_check_batteries HTTP/1.1" 200 156 0.005679
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:55:57] "GET /_check_batteries HTTP/1.1" 200 156 0.010662
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010527
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.006788
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.012849
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010337
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:26] "GET /wpad.dat HTTP/1.1" 302 396 0.023348
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:26] "GET / HTTP/1.1" 200 31306 0.036150
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:27] "GET /_check_batteries HTTP/1.1" 200 156 0.010305
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:37] "GET /_check_batteries HTTP/1.1" 200 156 0.005700
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.013004
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.012780
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010776
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:56:57] "GET /_check_batteries HTTP/1.1" 200 156 0.005919
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:07] "GET /_check_batteries HTTP/1.1" 200 156 0.005959
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007099
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007561
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:15] "GET /wpad.dat HTTP/1.1" 302 396 0.007370
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:15] "GET / HTTP/1.1" 200 31306 0.253291
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:17] "GET /_check_batteries HTTP/1.1" 200 156 0.005795
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:27] "GET /_check_batteries HTTP/1.1" 200 156 0.010420
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:37] "GET /_check_batteries HTTP/1.1" 200 156 0.005622
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.006814
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.006942
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:46] "GET /wpad.dat HTTP/1.1" 302 396 0.006950
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:46] "GET / HTTP/1.1" 200 31306 0.022530
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:47] "GET /_check_batteries HTTP/1.1" 200 156 0.011645
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:57:57] "GET /_check_batteries HTTP/1.1" 200 156 0.011132
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010316
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007324
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.007070
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010499
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:27] "GET /_check_batteries HTTP/1.1" 200 156 0.005818
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:32] "GET /wpad.dat HTTP/1.1" 302 396 0.014712
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:32] "GET / HTTP/1.1" 200 31306 0.040339
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:37] "GET /_check_batteries HTTP/1.1" 200 156 0.010493
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.015617
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.007553
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:47] "GET /_check_batteries HTTP/1.1" 200 156 0.005787
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:58:57] "GET /_check_batteries HTTP/1.1" 200 156 0.005967
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010610
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.024836
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:08] "GET /connecttest.txt HTTP/1.1" 302 396 0.012861
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:17] "GET /_check_batteries HTTP/1.1" 200 156 0.011334
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:21] "GET /wpad.dat HTTP/1.1" 302 396 0.007591
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:21] "GET / HTTP/1.1" 200 31306 0.029866
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:27] "GET /_check_batteries HTTP/1.1" 200 156 0.006844
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:37] "GET /_check_batteries HTTP/1.1" 200 156 0.010461
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.012794
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:38] "GET /connecttest.txt HTTP/1.1" 302 396 0.012812
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:47] "GET /_check_batteries HTTP/1.1" 200 155 0.018332
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 03:59:57] "GET /_check_batteries HTTP/1.1" 200 156 0.010790
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:00] "GET /wpad.dat HTTP/1.1" 302 396 0.012943
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:00] "GET / HTTP/1.1" 200 31306 0.034321
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:07] "GET /_check_batteries HTTP/1.1" 200 154 0.005645
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:17] "GET /_check_batteries HTTP/1.1" 200 156 0.007801
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:27] "GET /_check_batteries HTTP/1.1" 200 154 0.010766
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://content.dellsupportcenter.com/ /mstr/pd.txt
+DEBUG:root:URL to be evaluated: http://content.dellsupportcenter.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:32] "GET /mstr/pd.txt?pr=XPS%2015%209575&os=Win%2010%20%2818362.476%29&build=6.0.7033.2285&up=true&serial=30FY5Q2&id=69faa2ea-6130-4c65-ae64-9caad412aa05&dl=true&saaver=3.3.3.13&wr=8%2F23%2F2019%2011%3A59%3A59%20PM HTTP/1.1" 302 396 0.007934
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:32] "GET / HTTP/1.1" 200 31306 0.028110
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:37] "GET /_check_batteries HTTP/1.1" 200 156 0.016882
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:42] "GET /wpad.dat HTTP/1.1" 302 396 0.012780
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:42] "GET / HTTP/1.1" 200 31306 0.125273
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:47] "GET /_check_batteries HTTP/1.1" 200 156 0.006085
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:00:57] "GET /_check_batteries HTTP/1.1" 200 154 0.010291
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:01:07] "GET /_check_batteries HTTP/1.1" 200 154 0.010693
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:01:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010532
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:01:27] "GET /_check_batteries HTTP/1.1" 200 156 0.010365
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:01:28] "GET /wpad.dat HTTP/1.1" 302 396 0.007647
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:01:28] "GET / HTTP/1.1" 200 31306 0.015659
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:01:37] "GET /_check_batteries HTTP/1.1" 200 156 0.017532
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:01:47] "GET /_check_batteries HTTP/1.1" 200 156 0.019021
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:01:57] "GET /_check_batteries HTTP/1.1" 200 156 0.011502
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:01] "GET /wpad.dat HTTP/1.1" 302 396 0.007995
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:01] "GET / HTTP/1.1" 200 31306 0.013520
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:07] "GET /_check_batteries HTTP/1.1" 200 154 0.005659
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:17] "GET /_check_batteries HTTP/1.1" 200 156 0.011273
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:27] "GET /_check_batteries HTTP/1.1" 200 156 0.010502
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:32] "GET /wpad.dat HTTP/1.1" 302 396 0.018872
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:33] "GET / HTTP/1.1" 200 31306 0.025830
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:37] "GET /_check_batteries HTTP/1.1" 200 156 0.005659
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:47] "GET /_check_batteries HTTP/1.1" 200 156 0.011222
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:57] "GET /_check_batteries HTTP/1.1" 200 156 0.011454
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:57] "GET /execute/fast?to_run_code=gpg.stop()%0A HTTP/1.1" 200 109 0.009835
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:emergencystop
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:02:57] "GET /emergencystop HTTP/1.1" 200 109 0.013033
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010537
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:14] "GET /wpad.dat HTTP/1.1" 302 396 0.010312
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:14] "GET / HTTP/1.1" 200 31306 0.016001
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:17] "GET /_check_batteries HTTP/1.1" 200 156 0.011230
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:27] "GET /_check_batteries HTTP/1.1" 200 156 0.005910
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:37] "GET /_check_batteries HTTP/1.1" 200 155 0.010689
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:47] "GET /_check_batteries HTTP/1.1" 200 156 0.006172
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:57] "GET /wpad.dat HTTP/1.1" 302 396 0.007836
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:57] "GET / HTTP/1.1" 200 31306 0.015032
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:03:57] "GET /_check_batteries HTTP/1.1" 200 156 0.005932
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:04:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010532
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:04:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010777
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:04:27] "GET /_check_batteries HTTP/1.1" 200 155 0.010869
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:04:37] "GET /_check_batteries HTTP/1.1" 200 156 0.005699
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:04:40] "GET /execute/fast?to_run_code=gpg.stop()%0A HTTP/1.1" 200 109 0.006073
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:emergencystop
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 04:04:40] "GET /emergencystop HTTP/1.1" 200 109 0.006640

@@ -1,0 +1,788 @@
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:28] "GET /connecttest.txt HTTP/1.1" 302 396 0.022017
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:29] "GET /connecttest.txt HTTP/1.1" 302 396 0.008309
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:29] "GET /success.txt?ipv4 HTTP/1.1" 302 396 0.008092
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:30] "GET /success.txt HTTP/1.1" 302 396 0.008856
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:30] "GET / HTTP/1.1" 200 31306 0.515000
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+DEBUG:root:URL to be evaluated: http://wpad.attlocal.net/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:31] "GET /wpad.dat HTTP/1.1" 302 396 0.007682
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /redirect
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:31] "GET /redirect HTTP/1.1" 302 396 0.007196
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:31] "GET / HTTP/1.1" 200 31306 0.032009
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:31] "GET / HTTP/1.1" 200 31306 0.021012
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:32] "GET /static/pure-min.css HTTP/1.1" 200 16752 0.054993
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:32] "GET /static/main.css HTTP/1.1" 200 18142 0.048443
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:32] "GET /static/introjs.css HTTP/1.1" 200 15095 0.024447
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:32] "GET /static/dexter_introjs.css HTTP/1.1" 200 399 0.022383
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:32] "GET /static/header.css HTTP/1.1" 200 3737 0.021464
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:32] "GET /static/grids-responsive-min.css HTTP/1.1" 200 8332 0.022613
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:32] "GET /static/font-awesome.min.css HTTP/1.1" 200 31285 0.048478
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:32] "GET /static/modal.css HTTP/1.1" 200 5239 0.025014
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:33] "GET /success.txt HTTP/1.1" 302 396 0.006906
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /success.txt HTTP/1.1" 302 396 0.006819
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/images/trimming_icon.png HTTP/1.1" 200 17190 0.015925
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/images/logo-trans-cut-white_12.png HTTP/1.1" 200 4422 0.014668
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77464 0.157878
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /python HTTP/1.1" 200 41410 0.145063
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/fonts/open_sans/OpenSans-Light.ttf HTTP/1.1" 200 82222 0.162073
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/fonts/open_sans/OpenSans-Semibold.ttf HTTP/1.1" 200 65839 0.210709
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/images/trimming_step_1.jpg HTTP/1.1" 200 24866 0.030422
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/pure-min.css HTTP/1.1" 304 205 0.007184
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/main.css HTTP/1.1" 304 204 0.006529
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/introjs.css HTTP/1.1" 304 205 0.006347
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/dexter_introjs.css HTTP/1.1" 304 203 0.006471
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/trimming.css HTTP/1.1" 200 4940 0.008060
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/modal.css HTTP/1.1" 304 203 0.006658
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/header.css HTTP/1.1" 304 203 0.006815
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/grids-responsive-min.css HTTP/1.1" 304 203 0.006684
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/font-awesome.min.css HTTP/1.1" 304 205 0.006627
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:36] "GET /static/js/dexter_menu_dropdown.js HTTP/1.1" 200 7125 0.008574
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/dexter_modal.js HTTP/1.1" 200 18810 0.010774
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/modal.js HTTP/1.1" 200 28965 0.011395
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/dexter_core.js HTTP/1.1" 200 8363 0.011380
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/intro.js HTTP/1.1" 200 61442 0.070719
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/socket.io.min.js HTTP/1.1" 200 65373 0.058318
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/dexter_internationalize.js HTTP/1.1" 200 3290 0.008582
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/msg/dexter/en.js HTTP/1.1" 200 30485 0.014244
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/images/stop.png HTTP/1.1" 200 5975 0.008875
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/jquery-3.1.1.js HTTP/1.1" 200 267498 0.161725
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/images/trimming_icon.png HTTP/1.1" 304 204 0.007074
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/dexter_sensor_control_panel.js HTTP/1.1" 200 16198 0.009089
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/js/dexter_responsive.js HTTP/1.1" 200 1746 0.008288
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 206 354 0.006927
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/fonts/open_sans/OpenSans-Light.ttf HTTP/1.1" 206 352 0.006740
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/images/DXT_MenuIcons_Photos1.png HTTP/1.1" 200 8276 0.008150
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/images/trimming_step_1.jpg HTTP/1.1" 200 34215 0.007124
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /socket.io/?EIO=3&transport=polling&t=1575264254764-0 HTTP/1.1" 200 357 0.004771
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/fonts/open_sans/OpenSans-Semibold.ttf HTTP/1.1" 206 353 0.007336
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/images/DXT_MenuIcons_CalibrateWhite.png HTTP/1.1" 200 6522 0.008436
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 206 34853 0.008288
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/images/DXT_MenuIcons_CalibrateBlack.png HTTP/1.1" 200 4969 0.009187
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/fonts/open_sans/OpenSans-Light.ttf HTTP/1.1" 206 179781 0.088639
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Attempting to upgrade connection
+DEBUG:geventwebsocket.handler:WebSocket request accepted, switching protocols
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /static/fonts/open_sans/OpenSans-Semibold.ttf HTTP/1.1" 206 189242 0.095385
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /_auto_detect HTTP/1.1" 200 144 0.004894
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /ssid HTTP/1.1" 200 121 0.004245
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /version HTTP/1.1" 200 121 0.004119
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /_control_panel HTTP/1.1" 200 156 0.005116
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /_check_batteries HTTP/1.1" 200 156 0.006140
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /check_for_usb HTTP/1.1" 200 127 0.007898
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /socket.io/?EIO=3&transport=polling&t=1575264254990-1&sid=b4f4a6da3add432fa99ac48edb5909ee HTTP/1.1" 200 191 0.116190
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:geventwebsocket.handler:Can only upgrade connection if using GET method.
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "GET /_list_of_saved_files?in_path=%2Fhome%2Fpi%2FDocuments%2F HTTP/1.1" 200 110 0.007417
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:37] "POST /socket.io/?EIO=3&transport=polling&t=1575264255107-2&sid=b4f4a6da3add432fa99ac48edb5909ee HTTP/1.1" 200 193 0.213912
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:38] "GET /static/images/favicon.ico HTTP/1.1" 200 618 0.011034
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:39] "GET /success.txt HTTP/1.1" 302 396 0.018866
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:42] "GET /success.txt HTTP/1.1" 302 396 0.009573
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:45] "GET /success.txt HTTP/1.1" 302 396 0.008394
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010684
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:48] "GET /success.txt HTTP/1.1" 302 396 0.031207
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:49] "GET /connecttest.txt HTTP/1.1" 302 396 0.012883
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:49] "GET /connecttest.txt HTTP/1.1" 302 396 0.012958
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:51] "GET /success.txt HTTP/1.1" 302 396 0.007946
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:54] "GET /success.txt HTTP/1.1" 302 396 0.013562
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:57] "GET /_check_batteries HTTP/1.1" 200 156 0.016734
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:36:57] "GET /success.txt HTTP/1.1" 302 396 0.008200
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:01] "GET /success.txt HTTP/1.1" 302 396 0.013793
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:04] "GET /success.txt HTTP/1.1" 302 396 0.008639
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:07] "GET /success.txt HTTP/1.1" 302 396 0.013443
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:07] "GET /_check_batteries HTTP/1.1" 200 155 0.010438
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:10] "GET /success.txt HTTP/1.1" 302 396 0.009098
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:13] "GET /success.txt HTTP/1.1" 302 396 0.007619
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:16] "GET /success.txt HTTP/1.1" 302 396 0.009199
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:17] "GET /_check_batteries HTTP/1.1" 200 156 0.005865
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:19] "GET /connecttest.txt HTTP/1.1" 302 396 0.014552
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:19] "GET /success.txt HTTP/1.1" 302 396 0.012715
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:19] "GET /connecttest.txt HTTP/1.1" 302 396 0.012828
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:22] "GET /success.txt HTTP/1.1" 302 396 0.007703
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://ctldl.windowsupdate.com/ /msdownload/update/v3/static/trustedr/en/pinrulesstl.cab
+DEBUG:root:URL to be evaluated: http://ctldl.windowsupdate.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:25] "GET /msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?bccb132b73c01718 HTTP/1.1" 302 396 0.007744
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:25] "GET / HTTP/1.1" 200 31306 0.017349
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:25] "GET /success.txt HTTP/1.1" 302 396 0.008316
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:27] "GET /_check_batteries HTTP/1.1" 200 156 0.019210
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:28] "GET /success.txt HTTP/1.1" 302 396 0.007684
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:31] "GET /success.txt HTTP/1.1" 302 396 0.006749
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:34] "GET /success.txt HTTP/1.1" 302 396 0.006915
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:37] "GET /_check_batteries HTTP/1.1" 200 156 0.005760
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:37] "GET /success.txt HTTP/1.1" 302 396 0.006879
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:40] "GET /success.txt HTTP/1.1" 302 396 0.007119
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:44] "GET /success.txt HTTP/1.1" 302 396 0.013119
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:47] "GET /success.txt HTTP/1.1" 302 396 0.006880
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010378
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:49] "GET /connecttest.txt HTTP/1.1" 302 396 0.019414
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:49] "GET /connecttest.txt HTTP/1.1" 302 396 0.016662
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:50] "GET /success.txt HTTP/1.1" 302 396 0.007033
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:50] "GET /connecttest.txt?n=1575264328116 HTTP/1.1" 302 396 0.014779
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:URL to be evaluated: http://mygopigo.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:50] "GET / HTTP/1.1" 200 31306 0.036590
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:53] "GET /success.txt HTTP/1.1" 302 396 0.007459
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:56] "GET /success.txt HTTP/1.1" 302 396 0.013887
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:57] "GET /_check_batteries HTTP/1.1" 200 154 0.010534
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:37:59] "GET /success.txt HTTP/1.1" 302 396 0.007479
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:02] "GET /success.txt HTTP/1.1" 302 396 0.007598
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:05] "GET /success.txt HTTP/1.1" 302 396 0.007590
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:07] "GET /_check_batteries HTTP/1.1" 200 156 0.011135
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:08] "GET /success.txt HTTP/1.1" 302 396 0.007284
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:11] "GET /success.txt HTTP/1.1" 302 396 0.007499
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:14] "GET /success.txt HTTP/1.1" 302 396 0.013544
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:17] "GET /_check_batteries HTTP/1.1" 200 155 0.011467
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:17] "GET /success.txt HTTP/1.1" 302 396 0.007782
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:19] "GET /connecttest.txt HTTP/1.1" 302 396 0.013056
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:19] "GET /connecttest.txt HTTP/1.1" 302 396 0.012857
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:20] "GET /success.txt HTTP/1.1" 302 396 0.013166
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:23] "GET /success.txt HTTP/1.1" 302 396 0.007796
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:26] "GET /success.txt HTTP/1.1" 302 396 0.007167
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:27] "GET /_check_batteries HTTP/1.1" 200 156 0.010428
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:30] "GET /success.txt HTTP/1.1" 302 396 0.007570
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:33] "GET /success.txt HTTP/1.1" 302 396 0.013284
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:36] "GET /success.txt HTTP/1.1" 302 396 0.007515
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:37] "GET /_check_batteries HTTP/1.1" 200 155 0.015554
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:39] "GET /success.txt HTTP/1.1" 302 396 0.013005
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:42] "GET /success.txt HTTP/1.1" 302 396 0.007769
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:45] "GET /success.txt HTTP/1.1" 302 396 0.014296
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010281
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:48] "GET /success.txt HTTP/1.1" 302 396 0.007647
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:49] "GET /connecttest.txt HTTP/1.1" 302 396 0.006886
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:49] "GET /connecttest.txt HTTP/1.1" 302 396 0.012857
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:51] "GET /success.txt HTTP/1.1" 302 396 0.007815
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:54] "GET /success.txt HTTP/1.1" 302 396 0.008154
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:57] "GET /_check_batteries HTTP/1.1" 200 155 0.005765
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:38:57] "GET /success.txt HTTP/1.1" 302 396 0.007909
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:00] "GET /success.txt HTTP/1.1" 302 396 0.007574
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:03] "GET /success.txt HTTP/1.1" 302 396 0.007549
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:06] "GET /success.txt HTTP/1.1" 302 396 0.007705
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:07] "GET /_check_batteries HTTP/1.1" 200 155 0.005765
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:09] "GET /success.txt HTTP/1.1" 302 396 0.012887
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:12] "GET /success.txt HTTP/1.1" 302 396 0.007525
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:16] "GET /success.txt HTTP/1.1" 302 396 0.007132
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010312
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:19] "GET /success.txt HTTP/1.1" 302 396 0.008069
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:19] "GET /connecttest.txt HTTP/1.1" 302 396 0.006783
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:19] "GET /connecttest.txt HTTP/1.1" 302 396 0.012705
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:22] "GET /success.txt HTTP/1.1" 302 396 0.012914
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:25] "GET /success.txt HTTP/1.1" 302 396 0.010244
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:27] "GET /_check_batteries HTTP/1.1" 200 156 0.020376
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:28] "GET /success.txt HTTP/1.1" 302 396 0.007241
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:31] "GET /success.txt HTTP/1.1" 302 396 0.020426
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:34] "GET /success.txt HTTP/1.1" 302 396 0.007084
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:37] "GET /_check_batteries HTTP/1.1" 200 156 0.006647
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:37] "GET /success.txt HTTP/1.1" 302 396 0.007753
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:40] "GET /success.txt HTTP/1.1" 302 396 0.006866
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:43] "GET /success.txt HTTP/1.1" 302 396 0.009723
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:46] "GET /success.txt HTTP/1.1" 302 396 0.007087
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:47] "GET /_check_batteries HTTP/1.1" 200 156 0.010369
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:49] "GET /connecttest.txt HTTP/1.1" 302 396 0.012678
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:49] "GET /connecttest.txt HTTP/1.1" 302 396 0.015362
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:49] "GET /success.txt HTTP/1.1" 302 396 0.011787
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:52] "GET /success.txt HTTP/1.1" 302 396 0.012694
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:56] "GET /success.txt HTTP/1.1" 302 396 0.023225
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:57] "GET /_check_batteries HTTP/1.1" 200 156 0.010618
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:39:59] "GET /success.txt HTTP/1.1" 302 396 0.007207
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:02] "GET /success.txt HTTP/1.1" 302 396 0.017482
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:05] "GET /success.txt HTTP/1.1" 302 396 0.007078
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:07] "GET /_check_batteries HTTP/1.1" 200 156 0.010302
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:08] "GET /success.txt HTTP/1.1" 302 396 0.015351
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:11] "GET /success.txt HTTP/1.1" 302 396 0.007121
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:14] "GET /success.txt HTTP/1.1" 302 396 0.011332
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:17] "GET /success.txt HTTP/1.1" 302 396 0.013153
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:17] "GET /_check_batteries HTTP/1.1" 200 156 0.010182
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:19] "GET /connecttest.txt HTTP/1.1" 302 396 0.012775
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+DEBUG:root:URL to be evaluated: http://www.msftconnecttest.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:19] "GET /connecttest.txt HTTP/1.1" 302 396 0.020639
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:20] "GET /success.txt HTTP/1.1" 302 396 0.006951
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:23] "GET /success.txt HTTP/1.1" 302 396 0.013075
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:26] "GET /success.txt HTTP/1.1" 302 396 0.008566
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:27] "GET /_check_batteries HTTP/1.1" 200 156 0.005841
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:29] "GET /success.txt HTTP/1.1" 302 396 0.007136
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:32] "GET /success.txt HTTP/1.1" 302 396 0.013638
+DEBUG:geventwebsocket.handler:Initializing WebSocket
+DEBUG:geventwebsocket.handler:Validating WebSocket request
+DEBUG:root:page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+DEBUG:root:URL to be evaluated: http://detectportal.firefox.com/
+INFO:geventwebsocket.handler:10.10.10.37 - - [2019-09-25 05:40:35] "GET /success.txt HTTP/1.1" 302 396 0.008540

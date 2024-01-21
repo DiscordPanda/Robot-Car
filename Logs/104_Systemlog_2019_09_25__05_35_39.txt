@@ -1,0 +1,791 @@
+UPDATE
+===========================
+Image Starting Point: 2.0
+Current DexterOS version at start of update: 2.4.4
+Current UID=1000
+Memory device exists
+Mount Details
+===========================
+/dev/sda1 on /media/DISK_IMG type vfat (rw,nosuid,nodev,noexec,noatime,uid=1000,gid=100,fmask=0113,dmask=0002,allow_utime=0020,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro)
+Using usb key at /media/DISK_IMG
+Deleting zip updates mindepth=2
+DexterOS_update.zip NOT FOUND
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+UPDATES PULLED
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+UPDATES INSTALLED
+/
+SSID Update Begin
+No SSID change
+SSID Update End
+New hostname: Quigly
+Current hostname: Quigly
+No hostname change
+###########################################
+## Begin Installation of new features
+###########################################
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+###########################################
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+## Enable SPI and I2C
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+###########################################
+SPI removed from blacklist
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+SPI-dev in /etc/modules
+spi-dev already there
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+Making SPI changes in /boot/config.txt
+SPI already enabled
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+Removing blacklist from /etc/modprobe.d/raspi-blacklist.conf . . .
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+Adding I2C-dev in /etc/modules . . .
+I2C-dev already there
+i2c-bcm2708 already there
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+Making I2C changes in /boot/config.txt . . .
+I2C already enabled
+i2c_arm already enabled
+###########################################
+## Configuring Serial Port 
+###########################################
+Binary file /proc/device-tree/model matches
+dtoverlay=pi3-miniuart-bt
+dtoverlay=pi3-disable-bt
+enable_uart=1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+Camera already enabled
+###########################################
+## End Installation of new features
+###########################################
+DexterOS version at end of update: 2.4.4
+/home/pi/USB-Drive
+reboot_needed is 0
+do_not_reboot is 0
+================================
+Memory device exists
+================================
+Check if USB drive mounted
+================================
+USB Drive mounted here: /media/DISK_IMG
+Start: Wed 25 Sep 05:36:03 UTC 2019
+================================
+Hadware and Software information
+================================
+Hardware Information 
+----------------------------------
+Hardware	: BCM2835
+Revision	: a52082
+Serial		: 000000003bba79d5
+Raspbian Version
+----------------------------------
+PRETTY_NAME="Raspbian GNU/Linux 9 (stretch)"
+NAME="Raspbian GNU/Linux"
+VERSION_ID="9"
+VERSION="9 (stretch)"
+ID=raspbian
+ID_LIKE=debian
+HOME_URL="http://www.raspbian.org/"
+SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
+BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
+USB Device Information
+----------------------------------
+Bus 001 Device 004: ID 090c:1000 Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) Flash Drive
+Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. SMSC9512/9514 Fast Ethernet Adapter
+Bus 001 Device 002: ID 0424:9514 Standard Microsystems Corp. SMC9514 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Memory Device Information
+----------------------------------
+Disk /dev/sda: 7.5 GiB, 8022654976 bytes, 15669248 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x02a9b45e
+
+Device     Boot Start      End  Sectors  Size Id Type
+/dev/sda1  *       64 15669247 15669184  7.5G  b W95 FAT32
+================================
+Wifi Configuration details...
+================================
+Access point check
+----------------------------------
+Access point is switched on
+Access point Name and Channel Number
+----------------------------------
+ssid=Quigly
+channel=1
+Hostapd Status
+----------------------------------
+● hostapd.service - LSB: Advanced IEEE 802.11 management daemon
+   Loaded: loaded (/etc/init.d/hostapd; generated; vendor preset: enabled)
+  Drop-In: /etc/systemd/system/hostapd.service.d
+           └─autorestart_service.conf
+   Active: active (running) since Wed 2019-09-25 05:35:33 UTC; 31s ago
+     Docs: man:systemd-sysv-generator(8)
+   CGroup: /system.slice/hostapd.service
+           └─586 /usr/local/bin/hostapd -B -P /var/run/hostapd.pid /etc/hostapd/hostapd.conf
+
+Sep 25 05:35:32 Quigly systemd[1]: Starting LSB: Advanced IEEE 802.11 management daemon...
+Sep 25 05:35:33 Quigly hostapd[525]: Starting advanced IEEE 802.11 management: hostapd.
+Sep 25 05:35:33 Quigly systemd[1]: Started LSB: Advanced IEEE 802.11 management daemon.
+Dnsmasq Status
+----------------------------------
+● dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server
+   Loaded: loaded (/lib/systemd/system/dnsmasq.service; enabled; vendor preset: enabled)
+  Drop-In: /etc/systemd/system/dnsmasq.service.d
+           └─autorestart_service.conf
+   Active: active (running) since Wed 2019-09-25 05:35:34 UTC; 30s ago
+ Main PID: 607 (dnsmasq)
+   CGroup: /system.slice/dnsmasq.service
+           └─607 /usr/sbin/dnsmasq -x /run/dnsmasq/dnsmasq.pid -u dnsmasq -r /run/dnsmasq/resolv.conf -7 /etc/dnsmasq.d,.dpkg-dist,.dpkg-old,.dpkg-new --local-service --trust-anchor=.,19036,8,2,49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5 --trust-anchor=.,20326,8,2,e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+
+Sep 25 05:35:33 Quigly dnsmasq[527]: dnsmasq: syntax check OK.
+Sep 25 05:35:33 Quigly dnsmasq[607]: started, version 2.76 cachesize 150
+Sep 25 05:35:33 Quigly dnsmasq[607]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Sep 25 05:35:33 Quigly dnsmasq[607]: warning: ignoring resolv-file flag because no-resolv is set
+Sep 25 05:35:33 Quigly dnsmasq-dhcp[607]: DHCP, IP range 10.10.10.11 -- 10.10.10.254, lease time 2h
+Sep 25 05:35:33 Quigly dnsmasq[607]: using nameserver 8.8.4.4#53
+Sep 25 05:35:33 Quigly dnsmasq[607]: using nameserver 8.8.8.8#53
+Sep 25 05:35:33 Quigly dnsmasq[607]: read /etc/hosts - 7 addresses
+Sep 25 05:35:34 Quigly dnsmasq[609]: Too few arguments.
+Sep 25 05:35:34 Quigly systemd[1]: Started dnsmasq - A lightweight DHCP and caching DNS server.
+Network Configuration
+----------------------------------
+# This file was created by the Dexter Industries cinch setup script
+# Do not change unless you really know what you are doing
+
+auto lo
+iface lo inet loopback
+
+# auto eth0 waits for Ethernet device for more than 2 minutes.
+# Ref: http://raspberrypi.stackexchange.com/questions/45399/slow-boot-ethernet-wait
+# auto eth0
+
+# Ref for allow-hotplug:http://unix.stackexchange.com/questions/192671/what-is-a-hotplug-event-from-the-interface,
+# https://lists.debian.org/debian-doc/2008/02/msg00010.html,
+# https://www.debian.org/doc/manuals/debian-reference/ch05.en.html
+allow-hotplug eth0
+
+# iface eth0 inet dhcp
+iface eth0 inet dhcp
+
+# Ref: http://blog.embeddedcoding.com/2015/06/how-to-avoid-dhcp-delay-if-ethernet-is.html
+# You can reduce boot delay by 10 secs by uncommenting the below line and commenting dhcp which allots Dynamic IP address to eth0.
+#iface eth0 inet manual
+
+auto wlan0
+allow-hotplug wlan0
+
+iface wlan0 inet static
+address 10.10.10.10
+netmask 255.255.255.0
+
+up iptables-restore < /etc/iptables.ipv4.cinch.nat
+================================
+Check for internet connectivity
+================================
+Access point is switched on
+No Internet connectivity
+================================
+System Log Messages
+================================
+Sep 25 05:36:34 Quigly systemd[1]: Listening on Syslog Socket.
+Sep 25 05:36:34 Quigly systemd[1]: Starting System Logging Service...
+Sep 25 05:36:34 Quigly liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="2360" x-info="http://www.rsyslog.com"] start
+Sep 25 05:36:34 Quigly systemd[1]: Started System Logging Service.
+Sep 25 05:36:35 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:36:35 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:36:35 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:36:35 Quigly env[1744]: turn LED BLUE
+Sep 25 05:36:38 Quigly jupyter[1303]: [W 05:36:38.601 LabApp] Could not determine jupyterlab build status without nodejs
+Sep 25 05:36:39 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:36:39 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:36:39 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:36:39 Quigly jupyter[1303]: [I 05:36:39.775 LabApp] Kernel started: c3bfe621-a4ff-4d5d-8a4e-a724539fa307
+Sep 25 05:36:39 Quigly jupyter[1303]: [I 05:36:39.839 LabApp] Kernel started: fc740643-d779-495c-b4e5-6251af46dc61
+Sep 25 05:36:40 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:36:40 Quigly jupyter[1303]: [I 05:36:40.016 LabApp] Kernel started: bd6f3376-06e3-42c4-93ba-5bb068e96f03
+Sep 25 05:36:42 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:36:42 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:36:42 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:36:44 Quigly systemd-timesyncd[335]: Timed out waiting for reply from 10.10.10.10:123 (0.debian.pool.ntp.org).
+Sep 25 05:36:44 Quigly jupyter[1303]: [I 05:36:44.430 LabApp] Adapting to protocol v5.1 for kernel c3bfe621-a4ff-4d5d-8a4e-a724539fa307
+Sep 25 05:36:44 Quigly jupyter[1303]: [I 05:36:44.480 LabApp] Adapting to protocol v5.1 for kernel c3bfe621-a4ff-4d5d-8a4e-a724539fa307
+Sep 25 05:36:44 Quigly jupyter[1303]: [I 05:36:44.589 LabApp] Adapting to protocol v5.1 for kernel fc740643-d779-495c-b4e5-6251af46dc61
+Sep 25 05:36:44 Quigly jupyter[1303]: [I 05:36:44.634 LabApp] Adapting to protocol v5.1 for kernel fc740643-d779-495c-b4e5-6251af46dc61
+Sep 25 05:36:44 Quigly jupyter[1303]: [I 05:36:44.743 LabApp] Adapting to protocol v5.1 for kernel bd6f3376-06e3-42c4-93ba-5bb068e96f03
+Sep 25 05:36:44 Quigly jupyter[1303]: [I 05:36:44.790 LabApp] Adapting to protocol v5.1 for kernel bd6f3376-06e3-42c4-93ba-5bb068e96f03
+Sep 25 05:36:45 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:36:45 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:36:45 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:36:48 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:36:48 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:36:48 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:36:48 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:36:48 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:36:48 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:36:48 Quigly env[2494]: Continuous Logger
+Sep 25 05:36:48 Quigly env[2494]: Using usb key at /media/DISK_IMG
+Sep 25 05:36:50 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:36:51 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:36:51 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:36:51 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:36:54 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:36:54 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:36:54 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:36:54 Quigly systemd-timesyncd[335]: Timed out waiting for reply from 10.10.10.10:123 (1.debian.pool.ntp.org).
+Sep 25 05:36:57 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:36:57 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:36:57 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:00 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:37:00 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:00 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:00 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:03 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:03 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:03 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:04 Quigly systemd-timesyncd[335]: Timed out waiting for reply from 10.10.10.10:123 (2.debian.pool.ntp.org).
+Sep 25 05:37:06 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:06 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:06 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:08 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:37:08 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:37:08 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:37:09 Quigly env[2689]: Continuous Logger
+Sep 25 05:37:09 Quigly env[2689]: Using usb key at /media/DISK_IMG
+Sep 25 05:37:10 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:37:10 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:10 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:10 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:12 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:12 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:12 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:15 Quigly systemd-timesyncd[335]: Timed out waiting for reply from 10.10.10.10:123 (3.debian.pool.ntp.org).
+Sep 25 05:37:16 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:16 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:16 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:18 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:18 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:19 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:20 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:37:22 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:22 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:22 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:25 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:25 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:25 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:28 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:28 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:28 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:29 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:37:29 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:37:29 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:37:30 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:37:30 Quigly env[2914]: Continuous Logger
+Sep 25 05:37:30 Quigly env[2914]: Using usb key at /media/DISK_IMG
+Sep 25 05:37:31 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:31 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:31 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:34 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:34 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:34 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:37 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:37 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:37 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:40 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:37:40 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:40 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:40 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:43 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:43 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:43 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:46 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:46 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:46 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:49 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:49 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:49 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:49 Quigly python[1304]: /home/pi/Sam_Dev
+Sep 25 05:37:49 Quigly python[1304]: Calling detect_connected_robot
+Sep 25 05:37:49 Quigly python[1304]: autodetect
+Sep 25 05:37:49 Quigly python[1304]: Cleaning SPI
+Sep 25 05:37:49 Quigly python[1304]: Detecting GoPiGo3
+Sep 25 05:37:49 Quigly python[1304]: Found GoPiGo3
+Sep 25 05:37:49 Quigly python[1304]: Found GoPiGo3.
+Sep 25 05:37:49 Quigly python[1304]: run_autodetect/ Detected robot: GoPiGo3
+Sep 25 05:37:49 Quigly python[1304]: detect_connected_robot/ Detected robot is GoPiGo3
+Sep 25 05:37:49 Quigly python[1304]: Setting up a GoPiGo3
+Sep 25 05:37:49 Quigly python[1304]: Current voltage is 9.911
+Sep 25 05:37:49 Quigly python[1304]: Select a robot: 3
+Sep 25 05:37:49 Quigly python[1304]: GPG3_detected: True, GPG2_detected: False
+Sep 25 05:37:49 Quigly python[1304]: reading en language from disk
+Sep 25 05:37:49 Quigly python[1304]: *************************************
+Sep 25 05:37:49 Quigly python[1304]: 16
+Sep 25 05:37:49 Quigly python[1304]: get_number_from_filename: /home/jupyter/.lessons_python/1_Getting_Started/1_Moving_Around.ipynb
+Sep 25 05:37:49 Quigly python[1304]: get_number_from_filename: 1_Moving_Around.ipynb
+Sep 25 05:37:49 Quigly python[1304]: <_sre.SRE_Match object; span=(0, 21), match='1_Moving_Around.ipynb'>
+Sep 25 05:37:49 Quigly python[1304]: Just read lesson 1: Moving Around
+Sep 25 05:37:49 Quigly python[1304]: lesson title: Moving Around
+Sep 25 05:37:49 Quigly python[1304]: chapter: /home/jupyter/.lessons_python/1_Getting_Started
+Sep 25 05:37:49 Quigly python[1304]: filename: 1_Moving_Around.ipynb
+Sep 25 05:37:49 Quigly python[1304]: number: 1
+Sep 25 05:37:49 Quigly python[1304]: description:
+Sep 25 05:37:49 Quigly python[1304]: GoPiGo model: 3
+Sep 25 05:37:49 Quigly python[1304]: get_number_from_filename: /home/jupyter/.lessons_python/1_Getting_Started/2_The_Environment.ipynb
+Sep 25 05:37:49 Quigly python[1304]: get_number_from_filename: 2_The_Environment.ipynb
+Sep 25 05:37:49 Quigly python[1304]: <_sre.SRE_Match object; span=(0, 23), match='2_The_Environment.ipynb'>
+Sep 25 05:37:49 Quigly python[1304]: Just read lesson 2: The Environment
+Sep 25 05:37:49 Quigly python[1304]: lesson title: The Environment
+Sep 25 05:37:49 Quigly python[1304]: chapter: /home/jupyter/.lessons_python/1_Getting_Started
+Sep 25 05:37:49 Quigly python[1304]: filename: 2_The_Environment.ipynb
+Sep 25 05:37:49 Quigly python[1304]: number: 2
+Sep 25 05:37:49 Quigly python[1304]: description:
+Sep 25 05:37:49 Quigly python[1304]: GoPiGo model: 3
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://wpad.attlocal.net/  /wpad.dat
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://wpad.attlocal.net/ /wpad.dat
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /redirect
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /redirect
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: http://mygopigo.com
+Sep 25 05:37:49 Quigly python[1304]: Connect
+Sep 25 05:37:49 Quigly python[1304]: /dev/sda
+Sep 25 05:37:49 Quigly python[1304]: Port index is 0
+Sep 25 05:37:49 Quigly python[1304]: starting background thread
+Sep 25 05:37:49 Quigly python[1304]: disconnect_request...
+Sep 25 05:37:49 Quigly python[1304]: []
+Sep 25 05:37:49 Quigly python[1304]: sensor_update_background_thread is now None
+Sep 25 05:37:49 Quigly python[1304]: Port index is 1
+Sep 25 05:37:49 Quigly python[1304]: starting background thread
+Sep 25 05:37:49 Quigly python[1304]: disconnect_request...
+Sep 25 05:37:49 Quigly python[1304]: sensor_update_background_thread is now None
+Sep 25 05:37:49 Quigly python[1304]: Port index is 2
+Sep 25 05:37:49 Quigly python[1304]: starting background thread
+Sep 25 05:37:49 Quigly python[1304]: disconnect_request...
+Sep 25 05:37:49 Quigly python[1304]: sensor_update_background_thread is now None
+Sep 25 05:37:49 Quigly python[1304]: Port index is 3
+Sep 25 05:37:49 Quigly python[1304]: starting background thread
+Sep 25 05:37:49 Quigly python[1304]: disconnect_request...
+Sep 25 05:37:49 Quigly python[1304]: sensor_update_background_thread is now None
+Sep 25 05:37:49 Quigly python[1304]: Port index is 4
+Sep 25 05:37:49 Quigly python[1304]: starting background thread
+Sep 25 05:37:49 Quigly python[1304]: disconnect_request...
+Sep 25 05:37:49 Quigly python[1304]: sensor_update_background_thread is now None
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://ctldl.windowsupdate.com/  /msdownload/update/v3/static/trustedr/en/pinrulesstl.cab
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://ctldl.windowsupdate.com/ /msdownload/update/v3/static/trustedr/en/pinrulesstl.cab
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:37:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:37:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:37:50 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:37:50 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:37:50 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:37:50 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:37:50 Quigly env[3109]: Continuous Logger
+Sep 25 05:37:50 Quigly env[3109]: Using usb key at /media/DISK_IMG
+Sep 25 05:37:52 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:52 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:52 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:37:55 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:37:55 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:37:55 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:37:59 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:37:59 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:37:59 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:00 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:38:01 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:01 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:01 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:05 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:05 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:05 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:08 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:08 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:08 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:10 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:38:11 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:38:11 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:38:11 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:38:11 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:11 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:11 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:11 Quigly env[3300]: Continuous Logger
+Sep 25 05:38:11 Quigly env[3300]: Using usb key at /media/DISK_IMG
+Sep 25 05:38:14 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:14 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:14 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:15 Quigly systemd[1]: wifi_debug.service: Service hold-off time over, scheduling restart.
+Sep 25 05:38:15 Quigly systemd[1]: Stopped Wifi Debug.
+Sep 25 05:38:15 Quigly systemd[1]: Started Wifi Debug.
+Sep 25 05:38:15 Quigly env[3415]: Not Deleting older runs
+Sep 25 05:38:17 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:17 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:17 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:20 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:38:20 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:20 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:20 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:23 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:23 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:23 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:26 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:26 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:26 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:29 Quigly systemd-timesyncd[335]: Timed out waiting for reply from 10.10.10.10:123 (0.debian.pool.ntp.org).
+Sep 25 05:38:29 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:29 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:29 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:30 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:38:31 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:38:31 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:38:31 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:38:32 Quigly env[3645]: Continuous Logger
+Sep 25 05:38:32 Quigly env[3645]: Using usb key at /media/DISK_IMG
+Sep 25 05:38:32 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:32 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:32 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:36 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:36 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:36 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:38 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:38 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:38 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:39 Quigly systemd-timesyncd[335]: Timed out waiting for reply from 10.10.10.10:123 (1.debian.pool.ntp.org).
+Sep 25 05:38:40 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:38:42 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:42 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:42 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:44 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:44 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:44 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:48 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:48 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:48 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:50 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:38:50 Quigly systemd-timesyncd[335]: Timed out waiting for reply from 10.10.10.10:123 (2.debian.pool.ntp.org).
+Sep 25 05:38:51 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:51 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:51 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:38:52 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:38:52 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:38:52 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:38:53 Quigly env[3840]: Continuous Logger
+Sep 25 05:38:53 Quigly env[3840]: Using usb key at /media/DISK_IMG
+Sep 25 05:38:54 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:38:54 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:38:54 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:38:56 Quigly jupyter[1303]: [W 05:38:56.910 LabApp] 404 GET /api/contents/PROJECT1/PROJECT1/Practice?content=1&1575264394493 (10.10.10.37): No such file or directory: PROJECT1/PROJECT1/Practice
+Sep 25 05:38:56 Quigly jupyter[1303]: [W 05:38:56.912 LabApp] No such file or directory: PROJECT1/PROJECT1/Practice
+Sep 25 05:38:56 Quigly jupyter[1303]: [W 05:38:56.915 LabApp] 404 GET /api/contents/PROJECT1/PROJECT1/Practice?content=1&1575264394493 (10.10.10.37) 11.37ms referer=http://mygopigo.com:8090/lab
+Sep 25 05:38:57 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:38:57 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:38:57 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:00 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:39:00 Quigly systemd-timesyncd[335]: Timed out waiting for reply from 10.10.10.10:123 (3.debian.pool.ntp.org).
+Sep 25 05:39:00 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:00 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:00 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:03 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:03 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:03 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:06 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:06 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:06 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:09 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:09 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:09 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:10 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:39:12 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:12 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:12 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:13 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:39:13 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:39:13 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:39:13 Quigly env[4065]: Continuous Logger
+Sep 25 05:39:13 Quigly env[4065]: Using usb key at /media/DISK_IMG
+Sep 25 05:39:15 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:15 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:15 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:19 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:19 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:19 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:20 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:39:21 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:21 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:21 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:25 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:25 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:25 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:28 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:28 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:28 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:30 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:39:31 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:31 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:31 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:33 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:39:33 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:39:33 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:39:34 Quigly env[4256]: Continuous Logger
+Sep 25 05:39:34 Quigly env[4256]: Using usb key at /media/DISK_IMG
+Sep 25 05:39:34 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:34 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:34 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:37 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:37 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:37 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:40 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:39:40 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:40 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:40 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:43 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:43 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:43 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:46 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:46 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:46 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://detectportal.firefox.com/  /success.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://detectportal.firefox.com/ /success.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: page_not_found: URL to be evaluated: http://www.msftconnecttest.com/ /connecttest.txt
+Sep 25 05:39:49 Quigly python[1304]: URL to be evaluated in page_not_found: http://www.msftconnecttest.com/  /connecttest.txt
+Sep 25 05:39:49 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:49 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:49 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:50 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:39:52 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:52 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:52 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:39:54 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:39:54 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:39:54 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:39:54 Quigly env[4451]: Continuous Logger
+Sep 25 05:39:54 Quigly env[4451]: Using usb key at /media/DISK_IMG
+Sep 25 05:39:56 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:39:56 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:39:56 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:39:58 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:39:58 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:39:58 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:40:00 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:40:02 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:40:02 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:40:02 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:40:05 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:40:05 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:40:05 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:40:08 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:40:08 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:40:08 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:40:10 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:40:11 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:40:11 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:40:11 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:40:14 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:40:14 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:40:14 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:40:15 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:40:15 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:40:15 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:40:15 Quigly env[4676]: Continuous Logger
+Sep 25 05:40:15 Quigly env[4676]: Using usb key at /media/DISK_IMG
+Sep 25 05:40:17 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:40:17 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:40:17 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:40:17 Quigly systemd[1]: wifi_debug.service: Service hold-off time over, scheduling restart.
+Sep 25 05:40:17 Quigly systemd[1]: Stopped Wifi Debug.
+Sep 25 05:40:17 Quigly systemd[1]: Started Wifi Debug.
+Sep 25 05:40:18 Quigly env[4757]: Not Deleting older runs
+Sep 25 05:40:19 Quigly env[4757]: /home/pi/Sam_Dev/wifi_debug_info.sh: line 403: warning: command substitution: ignored null byte in input
+Sep 25 05:40:20 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:40:20 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:40:20 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:40:20 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:40:23 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:40:23 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:40:23 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:40:26 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:40:26 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:40:26 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:40:29 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:40:29 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:40:29 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:40:30 Quigly motion: [1:ml1] [ALR] [VID] vid_v4lx_start: Failed to open video device /dev/video0: No such file or directory
+Sep 25 05:40:32 Quigly env[1744]: WiFi_led_status.sh: Detected Robot: GoPiGo3
+Sep 25 05:40:32 Quigly env[1744]: WiFi_led_status.sh: connection_status = 1
+Sep 25 05:40:32 Quigly env[1744]: WiFi_led_status.sh: WiFi Broadcasting SSID: Quigly
+Sep 25 05:40:35 Quigly systemd[1]: continuous_logger.service: Service hold-off time over, scheduling restart.
+Sep 25 05:40:35 Quigly systemd[1]: Stopped Continuous logger.
+Sep 25 05:40:35 Quigly systemd[1]: Started Continuous logger.
+Sep 25 05:40:35 Quigly env[1744]: detect_devices.py - Found 1 connected devices.
+Sep 25 05:40:35 Quigly env[1744]: detect_devices.py - Device 0: ip=10.10.10.37#011address=9c:b6:d0:8d:be:09#011hostname=(Unknown)
+Sep 25 05:40:35 Quigly env[1744]: WiFi_led_status.sh: WiFi Connected to a device
+Sep 25 05:40:36 Quigly env[4988]: Continuous Logger
+Sep 25 05:40:36 Quigly env[4988]: Using usb key at /media/DISK_IMG

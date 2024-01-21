@@ -1,0 +1,992 @@
+*****************************************************************************************************************************************************
+########## wireless info START ##########
+
+Report from: 25 Sep 2019 05:36 UTC +0000
+
+Booted last: 25 Sep 2019 00:00 UTC +0000
+
+Script from: 08 Jul 2016 02:16 UTC +0000
+
+##### release ###########################
+
+Distributor ID:	Raspbian
+Description:	Raspbian GNU/Linux 9.3 (stretch)
+Release:	9.3
+Codename:	stretch
+
+##### kernel ############################
+
+Linux 4.9.80-v7+ #1098 SMP Fri Mar 9 19:11:42 GMT 2018 armv7l unknown unknown GNU/Linux
+
+8250.nr_uarts=1, bcm2708_fb.fbwidth=656, bcm2708_fb.fbheight=416, bcm2708_fb.fbswap=1, vc_mem.mem_base=0x3e200000, vc_mem.mem_size=0x3f600000, dwc_otg.lpm_enable=0, rootfstype=ext4, elevator=deadline, fsck.repair=yes, rootwait
+
+##### lsusb #############################
+
+Bus 001 Device 004: ID 090c:1000 Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) Flash Drive
+Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. SMSC9512/9514 Fast Ethernet Adapter
+Bus 001 Device 002: ID 0424:9514 Standard Microsystems Corp. SMC9514 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+##### lsmod #############################
+
+brcmfmac              292911  0
+brcmutil                9863  1 brcmfmac
+cfg80211              544609  1 brcmfmac
+rfkill                 20851  2 cfg80211
+
+##### interfaces ########################
+
+auto lo
+iface lo inet loopback
+
+allow-hotplug eth0
+
+iface eth0 inet dhcp
+
+auto wlan0
+allow-hotplug wlan0
+
+iface wlan0 inet static
+address 10.10.10.10
+netmask 255.255.255.0
+
+up iptables-restore < /etc/iptables.ipv4.cinch.nat
+
+##### ifconfig ##########################
+
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether <MAC address>  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1  (Local Loopback)
+        RX packets 12  bytes 748 (748.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12  bytes 748 (748.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 10.10.10.10  netmask 255.255.255.0  broadcast 10.10.10.255
+        ether <MAC address>  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 29  bytes 4478 (4.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+##### iwconfig ##########################
+
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+wlan0     IEEE 802.11  ESSID:off/any  
+          Mode:Managed  Access Point: Not-Associated   Tx-Power=31 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:on
+          
+
+##### route #############################
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.10.10.0      0.0.0.0         255.255.255.0   U     0      0        0 wlan0
+
+##### resolv.conf #######################
+
+nameserver 127.0.0.1
+
+##### iw reg get ########################
+
+Region: Etc/UTC (based on set time zone)
+
+global
+country US: DFS-FCC
+	(2402 - 2472 @ 40), (N/A, 30), (N/A)
+	(5170 - 5250 @ 80), (N/A, 23), (N/A), AUTO-BW
+	(5250 - 5330 @ 80), (N/A, 23), (0 ms), DFS, AUTO-BW
+	(5490 - 5730 @ 160), (N/A, 23), (0 ms), DFS
+	(5735 - 5835 @ 80), (N/A, 30), (N/A)
+	(57240 - 63720 @ 2160), (N/A, 40), (N/A)
+
+##### iwlist channels ###################
+
+lo        no frequency information.
+
+eth0      no frequency information.
+
+wlan0     11 channels in total; available frequencies :
+          Channel 01 : 2.412 GHz
+          Channel 02 : 2.417 GHz
+          Channel 03 : 2.422 GHz
+          Channel 04 : 2.427 GHz
+          Channel 05 : 2.432 GHz
+          Channel 06 : 2.437 GHz
+          Channel 07 : 2.442 GHz
+          Channel 08 : 2.447 GHz
+          Channel 09 : 2.452 GHz
+          Channel 10 : 2.457 GHz
+          Channel 11 : 2.462 GHz
+
+##### iwlist scan #######################
+
+lo        Interface doesn't support scanning.
+
+eth0      Interface doesn't support scanning.
+
+Channel occupancy:
+
+      3   APs on   Frequency:2.412 GHz (Channel 1)
+
+wlan0     Scan completed :
+          Cell 01 - Address: <MAC 'ATT74Bx8Qx' [AC1]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=38/70  Signal level=-72 dBm  
+                    Encryption key:on
+                    ESSID:"ATT74Bx8Qx"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 18 Mb/s
+                              24 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+          Cell 02 - Address: <MAC 'DIRECT-E3-HP OfficeJet Pro 8710' [AC2]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=22/70  Signal level=-88 dBm  
+                    Encryption key:on
+                    ESSID:"DIRECT-E3-HP OfficeJet Pro 8710"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 7510ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+          Cell 03 - Address: <MAC 'ATT74Bx8Qx_EXT' [AC3]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=61/70  Signal level=-49 dBm  
+                    Encryption key:on
+                    ESSID:"ATT74Bx8Qx_EXT"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 12 Mb/s; 24 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+
+##### module infos ######################
+
+[brcmfmac]
+filename:       /lib/modules/4.9.80-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
+license:        Dual BSD/GPL
+description:    Broadcom 802.11 wireless LAN fullmac driver.
+author:         Broadcom Corporation
+firmware:       brcm/brcmfmac4356-sdio.bin
+firmware:       brcm/brcmfmac4354-sdio.bin
+firmware:       brcm/brcmfmac43455-sdio.bin
+firmware:       brcm/brcmfmac43430-sdio.bin
+firmware:       brcm/brcmfmac4339-sdio.bin
+firmware:       brcm/brcmfmac43362-sdio.bin
+firmware:       brcm/brcmfmac4335-sdio.bin
+firmware:       brcm/brcmfmac43341-sdio.bin
+firmware:       brcm/brcmfmac43340-sdio.bin
+firmware:       brcm/brcmfmac4334-sdio.bin
+firmware:       brcm/brcmfmac4330-sdio.bin
+firmware:       brcm/brcmfmac4329-sdio.bin
+firmware:       brcm/brcmfmac43241b5-sdio.bin
+firmware:       brcm/brcmfmac43241b4-sdio.bin
+firmware:       brcm/brcmfmac43241b0-sdio.bin
+firmware:       brcm/brcmfmac43143-sdio.bin
+firmware:       brcm/brcmfmac43569.bin
+firmware:       brcm/brcmfmac43242a.bin
+firmware:       brcm/brcmfmac43236b.bin
+firmware:       brcm/brcmfmac43143.bin
+srcversion:     823E11E97E323ECE07C9DC1
+depends:        brcmutil,cfg80211
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+parm:           txglomsz:Maximum tx packet chain size [SDIO] (int)
+parm:           debug:Level of debug output (int)
+parm:           p2pon:Enable legacy p2p management functionality (int)
+parm:           feature_disable:Disable features (int)
+parm:           alternative_fw_path:Alternative firmware path (string)
+parm:           fcmode:Mode of firmware signalled flow control (int)
+parm:           roamoff:Do not use internal roaming engine (int)
+parm:           ignore_probe_fail:always succeed probe for debugging (int)
+
+[brcmutil]
+filename:       /lib/modules/4.9.80-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
+license:        Dual BSD/GPL
+description:    Broadcom 802.11n wireless LAN driver utilities.
+author:         Broadcom Corporation
+srcversion:     389318E018771B5453D0B02
+depends:        
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+
+[cfg80211]
+filename:       /lib/modules/4.9.80-v7+/kernel/net/wireless/cfg80211.ko
+description:    wireless configuration support
+license:        GPL
+author:         Johannes Berg
+srcversion:     A0F58D458E02CAA3DF12155
+depends:        rfkill
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+parm:           bss_entries_limit:limit to number of scan BSS entries (per wiphy, default 1000) (int)
+parm:           ieee80211_regdom:IEEE 802.11 regulatory domain code (charp)
+parm:           cfg80211_disable_40mhz_24ghz:Disable 40MHz support in the 2.4GHz band (bool)
+
+##### module parameters #################
+
+[brcmfmac]
+debug: 0
+roamoff: 1
+
+[cfg80211]
+bss_entries_limit: 1000
+cfg80211_disable_40mhz_24ghz: N
+ieee80211_regdom: 00
+
+##### /etc/modules ######################
+
+i2c-dev
+cuse
+spi-dev
+i2c-bcm2708
+
+##### modprobe options ##################
+
+[/etc/modprobe.d/blacklist-rtl8192cu.conf]
+blacklist rtl8192cu
+
+[/etc/modprobe.d/blacklist-rtl8xxxu.conf]
+blacklist rtl8xxxu
+
+[/etc/modprobe.d/ipv6.conf]
+alias net-pf-10 off
+
+[/etc/modprobe.d/uvcvideo-blacklist.conf]
+blacklist uvcvideo
+
+##### rc.local ##########################
+
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+exit 0
+
+##### pm-utils ##########################
+
+find: '/etc/pm/*.d': No such file or directory
+
+##### udev rules ########################
+
+##### dmesg #############################
+
+[    2.055379] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, <MAC address>
+[    5.230134] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+[    5.577861] brcmfmac: Firmware version = wl0: Oct 23 2017 03:55:53 version 7.45.98.38 (r674442 CY) FWID 01-e58d219f
+[    5.578615] brcmfmac: brcmf_c_preinit_dcmds: CLM version = API: 12.2 Data: 7.11.15 Compiler: 1.24.2 ClmImport: 1.24.1 Creation: 2014-05-26 10:53:55 Inc Data: 9.10.39 Inc Compiler: 1.29.4 Inc ClmImport: 1.36.3 Creation: 2017-10-23 03:47:14 
+[    6.117702] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[    6.117716] brcmfmac: power management disabled
+[    6.503838] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+[    6.504021] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    8.369850] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   40.418518] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   49.006139] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+
+########## wireless info END ############
+
+*****************************************************************************************************************************************************
+########## wireless info START ##########
+
+Report from: 25 Sep 2019 05:38 UTC +0000
+
+Booted last: 25 Sep 2019 00:00 UTC +0000
+
+Script from: 08 Jul 2016 02:16 UTC +0000
+
+##### release ###########################
+
+Distributor ID:	Raspbian
+Description:	Raspbian GNU/Linux 9.3 (stretch)
+Release:	9.3
+Codename:	stretch
+
+##### kernel ############################
+
+Linux 4.9.80-v7+ #1098 SMP Fri Mar 9 19:11:42 GMT 2018 armv7l unknown unknown GNU/Linux
+
+8250.nr_uarts=1, bcm2708_fb.fbwidth=656, bcm2708_fb.fbheight=416, bcm2708_fb.fbswap=1, vc_mem.mem_base=0x3e200000, vc_mem.mem_size=0x3f600000, dwc_otg.lpm_enable=0, rootfstype=ext4, elevator=deadline, fsck.repair=yes, rootwait
+
+##### lsusb #############################
+
+Bus 001 Device 004: ID 090c:1000 Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) Flash Drive
+Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. SMSC9512/9514 Fast Ethernet Adapter
+Bus 001 Device 002: ID 0424:9514 Standard Microsystems Corp. SMC9514 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+##### lsmod #############################
+
+brcmfmac              292911  0
+brcmutil                9863  1 brcmfmac
+cfg80211              544609  1 brcmfmac
+rfkill                 20851  3 cfg80211
+
+##### interfaces ########################
+
+auto lo
+iface lo inet loopback
+
+allow-hotplug eth0
+
+iface eth0 inet dhcp
+
+auto wlan0
+allow-hotplug wlan0
+
+iface wlan0 inet static
+address 10.10.10.10
+netmask 255.255.255.0
+
+up iptables-restore < /etc/iptables.ipv4.cinch.nat
+
+##### ifconfig ##########################
+
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether <MAC address>  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1  (Local Loopback)
+        RX packets 897  bytes 90078 (87.9 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 897  bytes 90078 (87.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.10.10.10  netmask 255.255.255.0  broadcast 10.10.10.255
+        inet6 fe80::ba27:ebff:feef:2c80  prefixlen 64  scopeid 0x20<link>
+        ether <MAC address>  txqueuelen 1000  (Ethernet)
+        RX packets 2856  bytes 243313 (237.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 20831  bytes 7034180 (6.7 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+##### iwconfig ##########################
+
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+wlan0     IEEE 802.11  Mode:Master  Tx-Power=31 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:on
+          
+
+##### route #############################
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.10.10.0      0.0.0.0         255.255.255.0   U     0      0        0 wlan0
+
+##### resolv.conf #######################
+
+nameserver 127.0.0.1
+
+##### iw reg get ########################
+
+Region: Etc/UTC (based on set time zone)
+
+global
+country US: DFS-FCC
+	(2402 - 2472 @ 40), (N/A, 30), (N/A)
+	(5170 - 5250 @ 80), (N/A, 23), (N/A), AUTO-BW
+	(5250 - 5330 @ 80), (N/A, 23), (0 ms), DFS, AUTO-BW
+	(5490 - 5730 @ 160), (N/A, 23), (0 ms), DFS
+	(5735 - 5835 @ 80), (N/A, 30), (N/A)
+	(57240 - 63720 @ 2160), (N/A, 40), (N/A)
+
+##### iwlist channels ###################
+
+lo        no frequency information.
+
+eth0      no frequency information.
+
+wlan0     11 channels in total; available frequencies :
+          Channel 01 : 2.412 GHz
+          Channel 02 : 2.417 GHz
+          Channel 03 : 2.422 GHz
+          Channel 04 : 2.427 GHz
+          Channel 05 : 2.432 GHz
+          Channel 06 : 2.437 GHz
+          Channel 07 : 2.442 GHz
+          Channel 08 : 2.447 GHz
+          Channel 09 : 2.452 GHz
+          Channel 10 : 2.457 GHz
+          Channel 11 : 2.462 GHz
+
+##### iwlist scan #######################
+
+lo        Interface doesn't support scanning.
+
+eth0      Interface doesn't support scanning.
+
+Channel occupancy:
+
+      3   APs on   Frequency:2.412 GHz (Channel 1)
+      1   APs on   Frequency:2.462 GHz (Channel 11)
+
+wlan0     Scan completed :
+          Cell 01 - Address: <MAC 'ATT74Bx8Qx' [AC1]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=34/70  Signal level=-76 dBm  
+                    Encryption key:on
+                    ESSID:"ATT74Bx8Qx"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 18 Mb/s
+                              24 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+          Cell 02 - Address: <MAC 'DIRECT-E3-HP OfficeJet Pro 8710' [AC2]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=29/70  Signal level=-81 dBm  
+                    Encryption key:on
+                    ESSID:"DIRECT-E3-HP OfficeJet Pro 8710"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+          Cell 03 - Address: <MAC 'ATT74Bx8Qx_EXT' [AC3]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=61/70  Signal level=-49 dBm  
+                    Encryption key:on
+                    ESSID:"ATT74Bx8Qx_EXT"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 12 Mb/s; 24 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+          Cell 04 - Address: <MAC '' [AC4]>
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=18/70  Signal level=-92 dBm  
+                    Encryption key:on
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 18 Mb/s
+                              24 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+
+##### module infos ######################
+
+[brcmfmac]
+filename:       /lib/modules/4.9.80-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
+license:        Dual BSD/GPL
+description:    Broadcom 802.11 wireless LAN fullmac driver.
+author:         Broadcom Corporation
+firmware:       brcm/brcmfmac4356-sdio.bin
+firmware:       brcm/brcmfmac4354-sdio.bin
+firmware:       brcm/brcmfmac43455-sdio.bin
+firmware:       brcm/brcmfmac43430-sdio.bin
+firmware:       brcm/brcmfmac4339-sdio.bin
+firmware:       brcm/brcmfmac43362-sdio.bin
+firmware:       brcm/brcmfmac4335-sdio.bin
+firmware:       brcm/brcmfmac43341-sdio.bin
+firmware:       brcm/brcmfmac43340-sdio.bin
+firmware:       brcm/brcmfmac4334-sdio.bin
+firmware:       brcm/brcmfmac4330-sdio.bin
+firmware:       brcm/brcmfmac4329-sdio.bin
+firmware:       brcm/brcmfmac43241b5-sdio.bin
+firmware:       brcm/brcmfmac43241b4-sdio.bin
+firmware:       brcm/brcmfmac43241b0-sdio.bin
+firmware:       brcm/brcmfmac43143-sdio.bin
+firmware:       brcm/brcmfmac43569.bin
+firmware:       brcm/brcmfmac43242a.bin
+firmware:       brcm/brcmfmac43236b.bin
+firmware:       brcm/brcmfmac43143.bin
+srcversion:     823E11E97E323ECE07C9DC1
+depends:        brcmutil,cfg80211
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+parm:           txglomsz:Maximum tx packet chain size [SDIO] (int)
+parm:           debug:Level of debug output (int)
+parm:           p2pon:Enable legacy p2p management functionality (int)
+parm:           feature_disable:Disable features (int)
+parm:           alternative_fw_path:Alternative firmware path (string)
+parm:           fcmode:Mode of firmware signalled flow control (int)
+parm:           roamoff:Do not use internal roaming engine (int)
+parm:           ignore_probe_fail:always succeed probe for debugging (int)
+
+[brcmutil]
+filename:       /lib/modules/4.9.80-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
+license:        Dual BSD/GPL
+description:    Broadcom 802.11n wireless LAN driver utilities.
+author:         Broadcom Corporation
+srcversion:     389318E018771B5453D0B02
+depends:        
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+
+[cfg80211]
+filename:       /lib/modules/4.9.80-v7+/kernel/net/wireless/cfg80211.ko
+description:    wireless configuration support
+license:        GPL
+author:         Johannes Berg
+srcversion:     A0F58D458E02CAA3DF12155
+depends:        rfkill
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+parm:           bss_entries_limit:limit to number of scan BSS entries (per wiphy, default 1000) (int)
+parm:           ieee80211_regdom:IEEE 802.11 regulatory domain code (charp)
+parm:           cfg80211_disable_40mhz_24ghz:Disable 40MHz support in the 2.4GHz band (bool)
+
+##### module parameters #################
+
+[brcmfmac]
+debug: 0
+roamoff: 1
+
+[cfg80211]
+bss_entries_limit: 1000
+cfg80211_disable_40mhz_24ghz: N
+ieee80211_regdom: 00
+
+##### /etc/modules ######################
+
+i2c-dev
+cuse
+spi-dev
+i2c-bcm2708
+
+##### modprobe options ##################
+
+[/etc/modprobe.d/blacklist-rtl8192cu.conf]
+blacklist rtl8192cu
+
+[/etc/modprobe.d/blacklist-rtl8xxxu.conf]
+blacklist rtl8xxxu
+
+[/etc/modprobe.d/ipv6.conf]
+alias net-pf-10 off
+
+[/etc/modprobe.d/uvcvideo-blacklist.conf]
+blacklist uvcvideo
+
+##### rc.local ##########################
+
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+exit 0
+
+##### pm-utils ##########################
+
+find: '/etc/pm/*.d': No such file or directory
+
+##### udev rules ########################
+
+##### dmesg #############################
+
+[    2.055379] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, <MAC address>
+[    5.230134] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+[    5.577861] brcmfmac: Firmware version = wl0: Oct 23 2017 03:55:53 version 7.45.98.38 (r674442 CY) FWID 01-e58d219f
+[    5.578615] brcmfmac: brcmf_c_preinit_dcmds: CLM version = API: 12.2 Data: 7.11.15 Compiler: 1.24.2 ClmImport: 1.24.1 Creation: 2014-05-26 10:53:55 Inc Data: 9.10.39 Inc Compiler: 1.29.4 Inc ClmImport: 1.36.3 Creation: 2017-10-23 03:47:14 
+[    6.117702] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[    6.117716] brcmfmac: power management disabled
+[    6.503838] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+[    6.504021] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    8.369850] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   40.418518] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   49.006139] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+
+########## wireless info END ############
+
+*****************************************************************************************************************************************************
+########## wireless info START ##########
+
+Report from: 25 Sep 2019 05:40 UTC +0000
+
+Booted last: 25 Sep 2019 00:00 UTC +0000
+
+Script from: 08 Jul 2016 02:16 UTC +0000
+
+##### release ###########################
+
+Distributor ID:	Raspbian
+Description:	Raspbian GNU/Linux 9.3 (stretch)
+Release:	9.3
+Codename:	stretch
+
+##### kernel ############################
+
+Linux 4.9.80-v7+ #1098 SMP Fri Mar 9 19:11:42 GMT 2018 armv7l unknown unknown GNU/Linux
+
+8250.nr_uarts=1, bcm2708_fb.fbwidth=656, bcm2708_fb.fbheight=416, bcm2708_fb.fbswap=1, vc_mem.mem_base=0x3e200000, vc_mem.mem_size=0x3f600000, dwc_otg.lpm_enable=0, rootfstype=ext4, elevator=deadline, fsck.repair=yes, rootwait
+
+##### lsusb #############################
+
+Bus 001 Device 004: ID 090c:1000 Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) Flash Drive
+Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. SMSC9512/9514 Fast Ethernet Adapter
+Bus 001 Device 002: ID 0424:9514 Standard Microsystems Corp. SMC9514 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+##### lsmod #############################
+
+brcmfmac              292911  0
+brcmutil                9863  1 brcmfmac
+cfg80211              544609  1 brcmfmac
+rfkill                 20851  3 cfg80211
+
+##### interfaces ########################
+
+auto lo
+iface lo inet loopback
+
+allow-hotplug eth0
+
+iface eth0 inet dhcp
+
+auto wlan0
+allow-hotplug wlan0
+
+iface wlan0 inet static
+address 10.10.10.10
+netmask 255.255.255.0
+
+up iptables-restore < /etc/iptables.ipv4.cinch.nat
+
+##### ifconfig ##########################
+
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether <MAC address>  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1  (Local Loopback)
+        RX packets 921  bytes 91934 (89.7 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 921  bytes 91934 (89.7 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.10.10.10  netmask 255.255.255.0  broadcast 10.10.10.255
+        inet6 fe80::ba27:ebff:feef:2c80  prefixlen 64  scopeid 0x20<link>
+        ether <MAC address>  txqueuelen 1000  (Ethernet)
+        RX packets 4238  bytes 372132 (363.4 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 37499  bytes 8389288 (8.0 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+##### iwconfig ##########################
+
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+wlan0     IEEE 802.11  Mode:Master  Tx-Power=31 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:on
+          
+
+##### route #############################
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.10.10.0      0.0.0.0         255.255.255.0   U     0      0        0 wlan0
+
+##### resolv.conf #######################
+
+nameserver 127.0.0.1
+
+##### iw reg get ########################
+
+Region: Etc/UTC (based on set time zone)
+
+global
+country US: DFS-FCC
+	(2402 - 2472 @ 40), (N/A, 30), (N/A)
+	(5170 - 5250 @ 80), (N/A, 23), (N/A), AUTO-BW
+	(5250 - 5330 @ 80), (N/A, 23), (0 ms), DFS, AUTO-BW
+	(5490 - 5730 @ 160), (N/A, 23), (0 ms), DFS
+	(5735 - 5835 @ 80), (N/A, 30), (N/A)
+	(57240 - 63720 @ 2160), (N/A, 40), (N/A)
+
+##### iwlist channels ###################
+
+lo        no frequency information.
+
+eth0      no frequency information.
+
+wlan0     11 channels in total; available frequencies :
+          Channel 01 : 2.412 GHz
+          Channel 02 : 2.417 GHz
+          Channel 03 : 2.422 GHz
+          Channel 04 : 2.427 GHz
+          Channel 05 : 2.432 GHz
+          Channel 06 : 2.437 GHz
+          Channel 07 : 2.442 GHz
+          Channel 08 : 2.447 GHz
+          Channel 09 : 2.452 GHz
+          Channel 10 : 2.457 GHz
+          Channel 11 : 2.462 GHz
+
+##### iwlist scan #######################
+
+lo        Interface doesn't support scanning.
+
+eth0      Interface doesn't support scanning.
+
+Channel occupancy:
+
+      3   APs on   Frequency:2.412 GHz (Channel 1)
+      1   APs on   Frequency:2.462 GHz (Channel 11)
+
+wlan0     Scan completed :
+          Cell 01 - Address: <MAC 'ATT74Bx8Qx' [AC1]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=33/70  Signal level=-77 dBm  
+                    Encryption key:on
+                    ESSID:"ATT74Bx8Qx"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 18 Mb/s
+                              24 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+          Cell 02 - Address: <MAC 'DIRECT-E3-HP OfficeJet Pro 8710' [AC2]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=26/70  Signal level=-84 dBm  
+                    Encryption key:on
+                    ESSID:"DIRECT-E3-HP OfficeJet Pro 8710"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+          Cell 03 - Address: <MAC 'ATT74Bx8Qx_EXT' [AC3]>
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=61/70  Signal level=-49 dBm  
+                    Encryption key:on
+                    ESSID:"ATT74Bx8Qx_EXT"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 12 Mb/s; 24 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+          Cell 04 - Address: <MAC '         ' [AC4]>
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=19/70  Signal level=-91 dBm  
+                    Encryption key:on
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 18 Mb/s
+                              24 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000000000000000
+                    Extra: Last beacon: 30ms ago
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+
+##### module infos ######################
+
+[brcmfmac]
+filename:       /lib/modules/4.9.80-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
+license:        Dual BSD/GPL
+description:    Broadcom 802.11 wireless LAN fullmac driver.
+author:         Broadcom Corporation
+firmware:       brcm/brcmfmac4356-sdio.bin
+firmware:       brcm/brcmfmac4354-sdio.bin
+firmware:       brcm/brcmfmac43455-sdio.bin
+firmware:       brcm/brcmfmac43430-sdio.bin
+firmware:       brcm/brcmfmac4339-sdio.bin
+firmware:       brcm/brcmfmac43362-sdio.bin
+firmware:       brcm/brcmfmac4335-sdio.bin
+firmware:       brcm/brcmfmac43341-sdio.bin
+firmware:       brcm/brcmfmac43340-sdio.bin
+firmware:       brcm/brcmfmac4334-sdio.bin
+firmware:       brcm/brcmfmac4330-sdio.bin
+firmware:       brcm/brcmfmac4329-sdio.bin
+firmware:       brcm/brcmfmac43241b5-sdio.bin
+firmware:       brcm/brcmfmac43241b4-sdio.bin
+firmware:       brcm/brcmfmac43241b0-sdio.bin
+firmware:       brcm/brcmfmac43143-sdio.bin
+firmware:       brcm/brcmfmac43569.bin
+firmware:       brcm/brcmfmac43242a.bin
+firmware:       brcm/brcmfmac43236b.bin
+firmware:       brcm/brcmfmac43143.bin
+srcversion:     823E11E97E323ECE07C9DC1
+depends:        brcmutil,cfg80211
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+parm:           txglomsz:Maximum tx packet chain size [SDIO] (int)
+parm:           debug:Level of debug output (int)
+parm:           p2pon:Enable legacy p2p management functionality (int)
+parm:           feature_disable:Disable features (int)
+parm:           alternative_fw_path:Alternative firmware path (string)
+parm:           fcmode:Mode of firmware signalled flow control (int)
+parm:           roamoff:Do not use internal roaming engine (int)
+parm:           ignore_probe_fail:always succeed probe for debugging (int)
+
+[brcmutil]
+filename:       /lib/modules/4.9.80-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
+license:        Dual BSD/GPL
+description:    Broadcom 802.11n wireless LAN driver utilities.
+author:         Broadcom Corporation
+srcversion:     389318E018771B5453D0B02
+depends:        
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+
+[cfg80211]
+filename:       /lib/modules/4.9.80-v7+/kernel/net/wireless/cfg80211.ko
+description:    wireless configuration support
+license:        GPL
+author:         Johannes Berg
+srcversion:     A0F58D458E02CAA3DF12155
+depends:        rfkill
+intree:         Y
+vermagic:       4.9.80-v7+ SMP mod_unload modversions ARMv7 p2v8 
+parm:           bss_entries_limit:limit to number of scan BSS entries (per wiphy, default 1000) (int)
+parm:           ieee80211_regdom:IEEE 802.11 regulatory domain code (charp)
+parm:           cfg80211_disable_40mhz_24ghz:Disable 40MHz support in the 2.4GHz band (bool)
+
+##### module parameters #################
+
+[brcmfmac]
+debug: 0
+roamoff: 1
+
+[cfg80211]
+bss_entries_limit: 1000
+cfg80211_disable_40mhz_24ghz: N
+ieee80211_regdom: 00
+
+##### /etc/modules ######################
+
+i2c-dev
+cuse
+spi-dev
+i2c-bcm2708
+
+##### modprobe options ##################
+
+[/etc/modprobe.d/blacklist-rtl8192cu.conf]
+blacklist rtl8192cu
+
+[/etc/modprobe.d/blacklist-rtl8xxxu.conf]
+blacklist rtl8xxxu
+
+[/etc/modprobe.d/ipv6.conf]
+alias net-pf-10 off
+
+[/etc/modprobe.d/uvcvideo-blacklist.conf]
+blacklist uvcvideo
+
+##### rc.local ##########################
+
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+exit 0
+
+##### pm-utils ##########################
+
+find: '/etc/pm/*.d': No such file or directory
+
+##### udev rules ########################
+
+##### dmesg #############################
+
+[    2.055379] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, <MAC address>
+[    5.230134] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+[    5.577861] brcmfmac: Firmware version = wl0: Oct 23 2017 03:55:53 version 7.45.98.38 (r674442 CY) FWID 01-e58d219f
+[    5.578615] brcmfmac: brcmf_c_preinit_dcmds: CLM version = API: 12.2 Data: 7.11.15 Compiler: 1.24.2 ClmImport: 1.24.1 Creation: 2014-05-26 10:53:55 Inc Data: 9.10.39 Inc Compiler: 1.29.4 Inc ClmImport: 1.36.3 Creation: 2017-10-23 03:47:14 
+[    6.117702] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[    6.117716] brcmfmac: power management disabled
+[    6.503838] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+[    6.504021] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    8.369850] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   40.418518] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   49.006139] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+
+########## wireless info END ############
+
