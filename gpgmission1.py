@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/14BAKJvL3QhSkfPo7LCU9m0vzS82n3kP6
 """
 
-!pip install easygopigo3
-!pip install gopigo3
-!curl -kL dexterindustries.com/update_sensors | bash
+#!pip install easygopigo3
+#!pip install gopigo3
+#!curl -kL dexterindustries.com/update_sensors | bash
 
 from easygopigo3 import EasyGoPiGo3
 import easygopigo3 as easy
